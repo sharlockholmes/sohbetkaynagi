@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-01",
+  "sourceOfTruth": "Typed HadithReference verisi source of truth'tur; bu coverage plan yalnız türetilmiş araştırma planıdır.",
+  "frozenBaseline": {
+    "version": "1.0",
+    "status": "frozen",
+    "auditStatus": "audit_clean",
+    "primaryRecordCount": 50,
+    "primaryFingerprintBefore": "71173c600ee4fad98efba5fd84f799d9118984a7a611274cd20a91537c84435c",
+    "primaryFingerprintAfter": "71173c600ee4fad98efba5fd84f799d9118984a7a611274cd20a91537c84435c",
+    "quranFingerprintBefore": "04d62dd229173c9aebceef09c0c72c3a12f31cb522bb86fb9a7d88604f4a382e",
+    "quranFingerprintAfter": "04d62dd229173c9aebceef09c0c72c3a12f31cb522bb86fb9a7d88604f4a382e"
+  },
+  "methodology": {
+    "principle": "Bir topic'e sırf sayı artırmak için secondary hadis eklenmez; yalnız primary'nin bıraktığı önemli semantik boyut tamamlanır.",
+    "secondHadithNeedValues": [
+      "NONE_FOR_NOW",
+      "USEFUL",
+      "NEEDED"
+    ],
+    "priorityValues": [
+      "HIGH",
+      "MEDIUM",
+      "LOW"
+    ],
+    "hadithSelectionPerformed": false
+  },
+  "summary": {
+    "totalTopics": 50,
+    "secondHadithNeed": {
+      "NONE_FOR_NOW": 17,
+      "USEFUL": 13,
+      "NEEDED": 20
+    },
+    "priority": {
+      "HIGH": 10,
+      "MEDIUM": 21,
+      "LOW": 19
+    },
+    "priorityTopics": {
+      "HIGH": [
+        {
+          "topicNumber": 20,
+          "topicTitle": "Emanet ve sorumluluk"
+        },
+        {
+          "topicNumber": 21,
+          "topicTitle": "Yardımlaşma ve cömertlik"
+        },
+        {
+          "topicNumber": 22,
+          "topicTitle": "Ailede sevgi, huzur ve merhamet"
+        },
+        {
+          "topicNumber": 26,
+          "topicTitle": "Haber ve iletişim ahlakı"
+        },
+        {
+          "topicNumber": 29,
+          "topicTitle": "İsraf ve ölçülü yaşamak"
+        },
+        {
+          "topicNumber": 31,
+          "topicTitle": "Kur’an’la yaşamak ve öğüt almak"
+        },
+        {
+          "topicNumber": 38,
+          "topicTitle": "İftira ve asılsız söz"
+        },
+        {
+          "topicNumber": 39,
+          "topicTitle": "Alay, küçümseme ve kötü lakap"
+        },
+        {
+          "topicNumber": 46,
+          "topicTitle": "İffet ve haya"
+        },
+        {
+          "topicNumber": 48,
+          "topicTitle": "Yumuşak söz ve güzel konuşmak"
+        }
+      ],
+      "MEDIUM": [
+        {
+          "topicNumber": 1,
+          "topicTitle": "Sabır"
+        },
+        {
+          "topicNumber": 2,
+          "topicTitle": "Tevekkül"
+        },
+        {
+          "topicNumber": 3,
+          "topicTitle": "Anne-babaya iyilik"
+        },
+        {
+          "topicNumber": 4,
+          "topicTitle": "Dua"
+        },
+        {
+          "topicNumber": 5,
+          "topicTitle": "Şükür"
+        },
+        {
+          "topicNumber": 6,
+          "topicTitle": "Ölüm ve hayatın geçiciliği"
+        },
+        {
+          "topicNumber": 8,
+          "topicTitle": "Tövbe ve pişmanlık"
+        },
+        {
+          "topicNumber": 11,
+          "topicTitle": "Ahiret ve hesap bilinci"
+        },
+        {
+          "topicNumber": 23,
+          "topicTitle": "Çocuk terbiyesi ve ebeveyn sorumluluğu"
+        },
+        {
+          "topicNumber": 25,
+          "topicTitle": "Komşuluk"
+        },
+        {
+          "topicNumber": 27,
+          "topicTitle": "Gençlik ve doğru duruş"
+        },
+        {
+          "topicNumber": 28,
+          "topicTitle": "Ümit ve ümitsizliğe kapılmamak"
+        },
+        {
+          "topicNumber": 32,
+          "topicTitle": "İlim öğrenmek ve bilginin değeri"
+        },
+        {
+          "topicNumber": 33,
+          "topicTitle": "Vakit ve ömrü değerlendirmek"
+        },
+        {
+          "topicNumber": 34,
+          "topicTitle": "Gayret ve emeğin değeri"
+        },
+        {
+          "topicNumber": 35,
+          "topicTitle": "Vefa ve sözünde durmak"
+        },
+        {
+          "topicNumber": 36,
+          "topicTitle": "Mahremiyet ve özel hayata saygı"
+        },
+        {
+          "topicNumber": 41,
+          "topicTitle": "İnsanların arasını düzeltmek"
+        },
+        {
+          "topicNumber": 42,
+          "topicTitle": "Kötülüğe iyilikle karşılık vermek"
+        },
+        {
+          "topicNumber": 43,
+          "topicTitle": "İyilik ve ihsan"
+        },
+        {
+          "topicNumber": 50,
+          "topicTitle": "Nefis muhasebesi ve kendini düzeltmek"
+        }
+      ],
+      "LOW": [
+        {
+          "topicNumber": 7,
+          "topicTitle": "Kul hakkı"
+        },
+        {
+          "topicNumber": 9,
+          "topicTitle": "Kardeşlik"
+        },
+        {
+          "topicNumber": 10,
+          "topicTitle": "Namazın önemi ve manevî etkisi"
+        },
+        {
+          "topicNumber": 12,
+          "topicTitle": "Güzel ahlak"
+        },
+        {
+          "topicNumber": 13,
+          "topicTitle": "Doğruluk ve dürüstlük"
+        },
+        {
+          "topicNumber": 14,
+          "topicTitle": "Gıybet ve dili korumak"
+        },
+        {
+          "topicNumber": 15,
+          "topicTitle": "Öfkeye hâkim olmak"
+        },
+        {
+          "topicNumber": 16,
+          "topicTitle": "Affetmek ve bağışlamak"
+        },
+        {
+          "topicNumber": 17,
+          "topicTitle": "Merhamet"
+        },
+        {
+          "topicNumber": 18,
+          "topicTitle": "Kibir ve büyüklenme"
+        },
+        {
+          "topicNumber": 19,
+          "topicTitle": "Haset ve kıskançlık"
+        },
+        {
+          "topicNumber": 24,
+          "topicTitle": "Sıla-i rahim ve akrabalık bağları"
+        },
+        {
+          "topicNumber": 30,
+          "topicTitle": "Adalet"
+        },
+        {
+          "topicNumber": 37,
+          "topicTitle": "Suizan ve zanlardan sakınmak"
+        },
+        {
+          "topicNumber": 40,
+          "topicTitle": "Dostluk ve arkadaş seçimi"
+        },
+        {
+          "topicNumber": 44,
+          "topicTitle": "Yetimlere karşı sorumluluk"
+        },
+        {
+          "topicNumber": 45,
+          "topicTitle": "Riya ve gösterişten sakınmak"
+        },
+        {
+          "topicNumber": 47,
+          "topicTitle": "İnsan onuru ve saygınlığı"
+        },
+        {
+          "topicNumber": 49,
+          "topicTitle": "Haksızlık ve zulümden sakınmak"
+        }
+      ]
+    },
+    "firstSecondaryResearchBatch": [
+      {
+        "topicNumber": 20,
+        "topicTitle": "Emanet ve sorumluluk",
+        "desiredSecondarySemanticTarget": "Emaneti korumak ve emanete hıyanetten sakınmak"
+      },
+      {
+        "topicNumber": 21,
+        "topicTitle": "Yardımlaşma ve cömertlik",
+        "desiredSecondarySemanticTarget": "Cömertlik, infak ve imkânı ihtiyaç sahibiyle paylaşma"
+      },
+      {
+        "topicNumber": 22,
+        "topicTitle": "Ailede sevgi, huzur ve merhamet",
+        "desiredSecondarySemanticTarget": "Aileye iyi davranma, şefkat ve merhametli muamele"
+      },
+      {
+        "topicNumber": 26,
+        "topicTitle": "Haber ve iletişim ahlakı",
+        "desiredSecondarySemanticTarget": "Duyulan her şeyi nakletmemek ve haber/bilgi aktarımında doğruluğu gözetmek"
+      },
+      {
+        "topicNumber": 29,
+        "topicTitle": "İsraf ve ölçülü yaşamak",
+        "desiredSecondarySemanticTarget": "Harcama ve genel tüketimde israftan kaçınma, ölçüyü koruma"
+      },
+      {
+        "topicNumber": 31,
+        "topicTitle": "Kur’an’la yaşamak ve öğüt almak",
+        "desiredSecondarySemanticTarget": "Kur'an'a bağlılık, ondan öğüt alma ve rehberliğini davranışa taşıma"
+      },
+      {
+        "topicNumber": 38,
+        "topicTitle": "İftira ve asılsız söz",
+        "desiredSecondarySemanticTarget": "Bir kişiye işlemediği şeyi isnat etme ve asılsız suçlamadan sakınma"
+      },
+      {
+        "topicNumber": 39,
+        "topicTitle": "Alay, küçümseme ve kötü lakap",
+        "desiredSecondarySemanticTarget": "Alay etmekten ve kötü/incitici lakap kullanmaktan sakınma"
+      },
+      {
+        "topicNumber": 46,
+        "topicTitle": "İffet ve haya",
+        "desiredSecondarySemanticTarget": "İffeti koruma ve haramdan sakınarak kişisel sınırları muhafaza etme"
+      },
+      {
+        "topicNumber": 48,
+        "topicTitle": "Yumuşak söz ve güzel konuşmak",
+        "desiredSecondarySemanticTarget": "Rifk, yumuşak muamele ve sertlikten sakınma"
+      }
+    ]
+  },
+  "architectureAssessment": {
+    "status": "PARTIALLY_READY",
+    "modelAllowsMultipleReferencesPerTopic": true,
+    "validationAllowsMultipleReferencesPerTopic": true,
+    "primarySecondaryRoleUsesRelationType": false,
+    "primaryRoleResolution": "Primary Hadith V1 üyeliği immutable PRIMARY_HADITH_V1_IDS listesiyle belirlenir; bu liste dışında kalan gelecekteki kayıtlar frozen V1 fingerprint hesabına katılmaz.",
+    "dataModelChangeRequired": false,
+    "architectureChangesRequiredBeforeSecondaryInsertion": [
+      "Toplam hadis sayısını 50 ve her topicte tam 1 toplam hadis olarak sabitleyen mevcut testler, frozen primary ID kümesini denetleyecek ve secondary kayıtları ayrıca sayacak biçimde ayrıştırılmalıdır.",
+      "Genel hadis validation katmanına farklı ID altında aynı collectionId + primary locator kombinasyonunun yinelenmesini engelleyen exact kaynak/locator duplicate kontrolü eklenmelidir.",
+      "Primary-only rapor veya sorgular PRIMARY_HADITH_V1_IDS üyeliğini kullanmalı; genel validate-content ise primary ve secondary dahil tüm kataloğu denetlemeye devam etmelidir."
+    ],
+    "relationTypeRule": "direct/related topic ile semantik ilişkiyi belirtir; primary/secondary katalog rolünü belirtmek için kullanılmamalıdır."
+  },
+  "records": [
+    {
+      "topicNumber": 1,
+      "topicTitle": "Sabır",
+      "topicId": "sabir",
+      "primaryHadith": "sabir-bukhari-1469",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1469"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 1469",
+      "primaryRelationRationale": "Hadis sabretmeye çalışan kimseye Allah’ın sabır vereceğini ve sabırdan daha hayırlı/geniş bir bağış bulunmadığını açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Sabretmeye çalışan kimseye Allah'ın sabır vereceğini ve sabrın en hayırlı, en geniş bağış olduğunu doğrudan taşır.",
+      "uncoveredImportantDimensions": [
+        "Musibet veya ilk sarsıntı anında sabır",
+        "Uzun süreli sebat ve dayanıklılık"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Musibet anında ve özellikle ilk sarsıntıda sabır gösterme",
+      "priority": "MEDIUM",
+      "notes": "Primary doğrulanmış excerpt'tır ve güçlüdür; secondary sırf excerpt olduğu için değil, sabrın uygulama bağlamını tamamlamak için anlamlı olabilir."
+    },
+    {
+      "topicNumber": 2,
+      "topicTitle": "Tevekkül",
+      "topicId": "tevekkul",
+      "primaryHadith": "tevekkul-bukhari-6472",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6472"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6472",
+      "primaryRelationRationale": "Hadis hesapsız cennete girecek bir topluluğu anlatırken onların Rablerine tevekkül ettiklerini açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Rablerine tevekkül eden bir topluluğu açıkça zikrederek tevekkül bağını doğrudan kurar.",
+      "uncoveredImportantDimensions": [
+        "Sebeplere başvurma ile Allah'a güven arasındaki denge",
+        "Zorluk anında aktif tevekkül"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Tedbir ve gayreti terk etmeden Allah'a dayanma",
+      "priority": "MEDIUM",
+      "notes": "Primary'nin ruqye ve uğursuzluk bağlamı itikadî ayrıntılar üretilmeden korunmalıdır."
+    },
+    {
+      "topicNumber": 3,
+      "topicTitle": "Anne-babaya iyilik",
+      "topicId": "anne-babaya-iyilik",
+      "primaryHadith": "anne-babaya-iyilik-bukhari-5971",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5971"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 5971",
+      "primaryRelationRationale": "Güzel davranışı en çok hak eden kişi sorusuna üç defa anne, ardından baba cevabı verilir.",
+      "primaryHadithSemanticCoverage": "Güzel muameleyi en çok hak eden kişinin üç kez anne, ardından baba olduğunu açıkça bildirir.",
+      "uncoveredImportantDimensions": [
+        "Yaşlılıkta bakım ve hizmet",
+        "Anne-babaya iyiliğin sürekliliği"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Anne-babaya özellikle ihtiyaç ve yaşlılık döneminde bakım, hizmet ve vefa",
+      "priority": "MEDIUM",
+      "notes": "Primary ikonik ve güçlüdür; secondary ana hükmü tekrar etmek yerine bakım boyutunu tamamlamalıdır."
+    },
+    {
+      "topicNumber": 4,
+      "topicTitle": "Dua",
+      "topicId": "dua",
+      "primaryHadith": "dua-bukhari-6340",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6340"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6340",
+      "primaryRelationRationale": "Kulun “dua ettim fakat kabul edilmedi” diyerek acele etmediği sürece duasının karşılık bulacağını bildirir.",
+      "primaryHadithSemanticCoverage": "Dua eden kişinin acele edip karşılık görmediğini söylememesini bildirir.",
+      "uncoveredImportantDimensions": [
+        "Duanın kulluk ve Allah'a yöneliş değeri",
+        "Dua adabının primary'de bulunmayan temel boyutu"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Duanın kulluk, yöneliş ve Allah'tan isteme değeri",
+      "priority": "MEDIUM",
+      "notes": "Primary duanın kendisinden çok duada acele etmemeyi merkez alır; başlığın çekirdeğini tamamlayan ikinci rivayet belirgin kalite artışı sağlar."
+    },
+    {
+      "topicNumber": 5,
+      "topicTitle": "Şükür",
+      "topicId": "sukur",
+      "primaryHadith": "sukur-muslim-2734a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2734a"
+      },
+      "primarySourceReference": "Sahih Muslim 2734a",
+      "primaryRelationRationale": "Kulun yiyip içtikten sonra Allah’a hamdetmesinin Allah’ın hoşnutluğuna vesile olduğunu açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Yeme veya içme sonrasında Allah'a hamd eden kuldan Allah'ın razı olacağını bildirir.",
+      "uncoveredImportantDimensions": [
+        "Yeme-içme dışındaki nimetlere şükür",
+        "Şükrün genel ve sürekli kulluk boyutu"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Nimetleri genel olarak Allah'a hamd ve şükürle karşılama",
+      "priority": "MEDIUM",
+      "notes": "Primary şükrü açıkça taşır fakat uygulama bağlamı yeme ve içmedir."
+    },
+    {
+      "topicNumber": 6,
+      "topicTitle": "Ölüm ve hayatın geçiciliği",
+      "topicId": "olum-ve-hayatin-geciciligi",
+      "primaryHadith": "olum-ve-hayatin-geciciligi-bukhari-6416",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6416"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6416",
+      "primaryRelationRationale": "Dünyada bir garip veya yolcu gibi bulunma öğüdünü taşır. Dünya hayatının geçiciliği ve ölüme hazırlık açısından açık ilişkidir.",
+      "primaryHadithSemanticCoverage": "Dünyada garip veya yolcu gibi olma öğüdüyle hayatın geçiciliğini güçlü biçimde taşır.",
+      "uncoveredImportantDimensions": [
+        "Ölümü hatırlama",
+        "Ölüme ve ahiret hesabına hazırlanma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Ölümü hatırlama ve hayat bitmeden hazırlık yapma",
+      "priority": "MEDIUM",
+      "notes": "Primary excerpt özellikle geçicilik tarafını taşır; başlığın ölüm boyutu ayrı bir güçlü rivayetle tamamlanmalıdır."
+    },
+    {
+      "topicNumber": 7,
+      "topicTitle": "Kul hakkı",
+      "topicId": "kul-hakki",
+      "primaryHadith": "kul-hakki-bukhari-2449",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2449"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 2449",
+      "primaryRelationRationale": "Bir kimsenin başka birinin şeref/onur veya başka bir hakkı konusunda haksızlığı varsa ahiretten önce helalleşmesini açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Başkasının onuru veya başka hakkıyla ilgili haksızlığı bulunan kişinin ahiretten önce helalleşmesini ve karşılık aktarımını açıkça işler.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — mevcut primary hak ihlali, helalleşme ve ahiret sonucunu yeterince güçlü temsil ediyor",
+      "priority": "LOW",
+      "notes": "Yeni hadis yalnız farklı bir hak ihlali boyutunu gerçekten açıyorsa düşünülmelidir."
+    },
+    {
+      "topicNumber": 8,
+      "topicTitle": "Tövbe ve pişmanlık",
+      "topicId": "tovbe-ve-pismanlik",
+      "primaryHadith": "tovbe-ve-pismanlik-bukhari-6309",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6309"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6309",
+      "primaryRelationRationale": "Allah’ın kulunun tövbesine, çölde kaybettiği bineğini yeniden bulan kişinin sevincinden daha fazla hoşnut olduğunu bildiren rivayettir.",
+      "primaryHadithSemanticCoverage": "Allah'ın kulun tövbesine duyduğu sevinci kayıp bineğini bulan kişinin sevincine benzeterek tövbenin değerini taşır.",
+      "uncoveredImportantDimensions": [
+        "Pişmanlığın tövbedeki yeri",
+        "Günahtan dönme ve davranışı düzeltme"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Tövbenin pişmanlık, günahtan dönüş ve düzeltme boyutu",
+      "priority": "MEDIUM",
+      "notes": "Primary tövbenin kabul ve rahmet boyutunda çok güçlüdür; secondary aynı benzetmeyi tekrar etmemelidir."
+    },
+    {
+      "topicNumber": 9,
+      "topicTitle": "Kardeşlik",
+      "topicId": "kardeslik",
+      "primaryHadith": "kardeslik-bukhari-13",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "13"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 13",
+      "primaryRelationRationale": "Kişinin kendisi için sevdiğini kardeşi için de sevmesini imanın gereği olarak açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Kişinin kendisi için sevdiğini kardeşi için de sevmesini imanın gereği olarak açıkça bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — kardeşliğin özgecilik ve karşılıklı iyilik çekirdeği güçlü biçimde temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Yardımlaşma ve hak koruma gibi boyutlar ayrı canonical topiclerde zaten bulunur."
+    },
+    {
+      "topicNumber": 10,
+      "topicTitle": "Namazın önemi ve manevî etkisi",
+      "topicId": "namazin-onemi-ve-manevi-etkisi",
+      "primaryHadith": "namazin-onemi-ve-manevi-etkisi-bukhari-528",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "528"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 528",
+      "primaryRelationRationale": "Beş vakit namazı, kişinin kapısındaki nehirde günde beş defa yıkanmasına benzeterek günahların silinmesine vesile olduğunu açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Beş vakit namazı günde beş kez yıkanmaya benzeterek günahların silinmesi ve manevî arınmayı açıkça taşır.",
+      "uncoveredImportantDimensions": [
+        "Namazın kulluk düzenindeki merkeziliği",
+        "Namaza devam ve koruma"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Beş vakit namazı koruma ve kulluk hayatındaki merkezî konumu",
+      "priority": "LOW",
+      "notes": "Primary hem önem hem manevî etki için yeterince güçlüdür; secondary zenginleştirici olabilir fakat acil değildir."
+    },
+    {
+      "topicNumber": 11,
+      "topicTitle": "Ahiret ve hesap bilinci",
+      "topicId": "ahiret-ve-hesap-bilinci",
+      "primaryHadith": "ahiret-hesap-bukhari-6536",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6536"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6536",
+      "primaryRelationRationale": "Hesabın ayrıntılı biçimde sorgulanmasının ağır sonucunu ve kolay hesabın arz/sunum mahiyetini açıkça işler; canonical başlığın hesap bilinci yönünü doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Kolay hesabın arz/sunum olduğunu, ayrıntılı sorgulamanın ağır sonucunu açıkça işler.",
+      "uncoveredImportantDimensions": [
+        "Ahirete hazırlık",
+        "Amellerin hesap için önceden değerlendirilmesi"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Ahiret hesabına hazırlık ve insanın amellerinden sorumlu oluşu",
+      "priority": "MEDIUM",
+      "notes": "Primary hesap türü nüansında güçlüdür; geniş başlığın hazırlık ve sorumluluk boyutunu tamamlamak gerekir."
+    },
+    {
+      "topicNumber": 12,
+      "topicTitle": "Güzel ahlak",
+      "topicId": "guzel-ahlak",
+      "primaryHadith": "guzel-ahlak-bukhari-3559",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "3559"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 3559",
+      "primaryRelationRationale": "İnsanların en hayırlılarının ahlâkı en güzel olanlar olduğunu açıkça bildirir ve topic için güçlü ana hadis adayıdır.",
+      "primaryHadithSemanticCoverage": "İnsanların en hayırlılarının ahlâkı en güzel olanlar olduğunu ve Hz. Peygamber'in kötü sözlü olmadığını bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — güzel ahlâk şemsiyesinin değeri açıkça temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Özel ahlâk boyutları ayrı canonical topiclerde bulunduğu için bu şemsiye topic gereksiz hadis biriktirmemelidir."
+    },
+    {
+      "topicNumber": 13,
+      "topicTitle": "Doğruluk ve dürüstlük",
+      "topicId": "dogruluk-ve-durustluk",
+      "primaryHadith": "dogruluk-bukhari-6094",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6094"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6094",
+      "primaryRelationRationale": "Doğruluğun iyiliğe, iyiliğin cennete; yalanın ise fücura ve ateşe götürdüğünü açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Doğruluğun iyiliğe ve cennete, yalanın fücura ve ateşe götürmesini; sürekliliğin kişiyi sıddîk veya yalancı yazdırmasını tam olarak taşır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — doğruluk ve yalan karşıtlığı sonuçlarıyla birlikte tam temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Secondary ancak dürüstlüğün farklı bir uygulama alanını açıyorsa eklenmelidir."
+    },
+    {
+      "topicNumber": 14,
+      "topicTitle": "Gıybet ve dili korumak",
+      "topicId": "giybet-ve-dili-korumak",
+      "primaryHadith": "giybet-muslim-2589",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2589"
+      },
+      "primarySourceReference": "Sahih Muslim 2589",
+      "primaryRelationRationale": "Gıybeti kişinin kardeşini hoşlanmayacağı bir şeyle anması olarak doğrudan tarif eder ve söylenen şey onda yoksa bunun iftira olduğunu ayırır.",
+      "primaryHadithSemanticCoverage": "Gıybeti kişinin kardeşini hoşlanmadığı şeyle anması olarak tanımlar; söz onda yoksa bühtan olduğunu ayırır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — gıybet ve bühtan ayrımı topic çekirdeğini yeterince temsil ediyor",
+      "priority": "LOW",
+      "notes": "Genel söz ahlâkı 26 ve 48 numaralı topiclerde ayrıca temsil edilir."
+    },
+    {
+      "topicNumber": 15,
+      "topicTitle": "Öfkeye hâkim olmak",
+      "topicId": "ofkeye-hakim-olmak",
+      "primaryHadith": "ofke-bukhari-6114",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6114"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6114",
+      "primaryRelationRationale": "Gerçek güçlü kişinin başkalarını fiziksel olarak yenen değil, öfke anında kendisine hâkim olan kişi olduğunu açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Gerçek güçlü kişinin öfke anında kendisine hâkim olan kişi olduğunu açık karşılaştırmayla bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — topic tek ve güçlü bir çekirdekle doğrudan temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Sırf sayı artırmak için benzer lafızlı ikinci rivayet eklenmemelidir."
+    },
+    {
+      "topicNumber": 16,
+      "topicTitle": "Affetmek ve bağışlamak",
+      "topicId": "affetmek-ve-bagislamak",
+      "primaryHadith": "affetmek-muslim-2588",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2588"
+      },
+      "primarySourceReference": "Sahih Muslim 2588",
+      "primaryRelationRationale": "Bir kulun affetmesi sebebiyle Allah’ın onun izzetini artıracağını açıkça bildirir; bu topicte affetme bölümü ana ilişkidir.",
+      "primaryHadithSemanticCoverage": "Affın insanın izzetini artıracağını doğrudan bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — affetmenin değeri ve sonucu açıkça temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Tam matn sadaka ve tevazu temalarını da içerir; secondary bu temaları tekrar etmemelidir."
+    },
+    {
+      "topicNumber": 17,
+      "topicTitle": "Merhamet",
+      "topicId": "merhamet",
+      "primaryHadith": "merhamet-bukhari-7376",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "7376"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 7376",
+      "primaryRelationRationale": "İnsanlara merhamet etmeyen kimseye Allah’ın merhamet etmeyeceğini açıkça bildirir ve canonical merhamet başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "İnsanlara merhamet etmeyene Allah'ın merhamet etmeyeceğini genel ve güçlü biçimde bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — merhamet topic'i genel bir ilkeyle yeterince temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Secondary ancak belirli bir korunmasız gruba merhamet gibi yeni bir boyut sağlarsa düşünülmelidir."
+    },
+    {
+      "topicNumber": 18,
+      "topicTitle": "Kibir ve büyüklenme",
+      "topicId": "kibir-ve-buyuklenme",
+      "primaryHadith": "kibir-muslim-91a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "91a"
+      },
+      "primarySourceReference": "Sahih Muslim 91a",
+      "primaryRelationRationale": "Kalbinde zerre miktarı kibir bulunan kimse hakkında ağır uyarı taşır ve kibri hakkı reddetmek ile insanları küçümsemek olarak tarif eder.",
+      "primaryHadithSemanticCoverage": "Kibri hakkı reddetmek ve insanları küçümsemek olarak tanımlar; kalpte zerre miktarı kibir hakkında uyarır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — kibir hem tanımı hem sonucu bakımından güçlü biçimde temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Mevcut full matn topic için yüksek kapsama sahiptir."
+    },
+    {
+      "topicNumber": 19,
+      "topicTitle": "Haset ve kıskançlık",
+      "topicId": "haset-ve-kiskanclik",
+      "primaryHadith": "haset-bukhari-6065",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6065"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6065",
+      "primaryRelationRationale": "Birbirine haset etmemeyi açıkça emreder; diğer unsurlarının yanında canonical haset topic’iyle direct ilişkisi açıktır.",
+      "primaryHadithSemanticCoverage": "Birbirine haset etmemeyi açıkça emreder ve bunu kardeşlik bağlamında taşır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — haset yasağı açık lafızla doğrudan temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Primary'nin diğer kardeşlik unsurları full matnda korunur."
+    },
+    {
+      "topicNumber": 20,
+      "topicTitle": "Emanet ve sorumluluk",
+      "topicId": "emanet-ve-sorumluluk",
+      "primaryHadith": "emanet-sorumluluk-bukhari-7138",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "7138"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 7138",
+      "primaryRelationRationale": "Her insanın bir sorumluluk alanına sahip olduğunu ve bundan sorumlu tutulacağını yönetici, aile ve mal sorumluluğu örnekleriyle açıkça bildirir; bu ilk aday başlığın özellikle sorumluluk boyutunu temsil eder.",
+      "primaryHadithSemanticCoverage": "Herkesin bir sorumluluk alanı bulunduğunu ve bundan sorgulanacağını yönetici, aile ve mal örnekleriyle açıkça taşır.",
+      "uncoveredImportantDimensions": [
+        "Emaneti koruma",
+        "Emanete hıyanetten sakınma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Emaneti korumak ve emanete hıyanetten sakınmak",
+      "priority": "HIGH",
+      "notes": "Primary başlığın sorumluluk yarısını çok güçlü taşır; emanet yarısı ayrı ve doğrudan bir secondary gerektirir."
+    },
+    {
+      "topicNumber": 21,
+      "topicTitle": "Yardımlaşma ve cömertlik",
+      "topicId": "yardimlasma-ve-comertlik",
+      "primaryHadith": "yardimlasma-muslim-2699a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2699a"
+      },
+      "primarySourceReference": "Sahih Muslim 2699a",
+      "primaryRelationRationale": "Müminin sıkıntısını gidermeyi, darda kalana kolaylık göstermeyi ve kardeşine yardım eden kula Allah’ın yardımını açıkça bildirir; bu ilk aday başlığın özellikle yardımlaşma boyutunu temsil eder.",
+      "primaryHadithSemanticCoverage": "Müminin sıkıntısını giderme, darda kalana kolaylık ve kardeşine yardım eden kula Allah'ın yardımını güçlü biçimde taşır.",
+      "uncoveredImportantDimensions": [
+        "Cömertlik",
+        "İnfak ve karşılıksız verme"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Cömertlik, infak ve imkânı ihtiyaç sahibiyle paylaşma",
+      "priority": "HIGH",
+      "notes": "Primary yardımlaşma tarafını tamamlar; canonical başlığın cömertlik tarafı açıkça eksiktir."
+    },
+    {
+      "topicNumber": 22,
+      "topicTitle": "Ailede sevgi, huzur ve merhamet",
+      "topicId": "ailede-sevgi-huzur-ve-merhamet",
+      "primaryHadith": "aile-huzuru-muslim-1468b",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1468b"
+      },
+      "primarySourceReference": "Sahih Muslim 1468b",
+      "primaryRelationRationale": "Mümin erkeğin mümin eşine bütünüyle nefret beslememesini, bir huyundan hoşlanmasa başka bir huyundan hoşnut olabileceğini bildirerek eşler arası denge ve aile huzurunu doğrudan destekler.",
+      "primaryHadithSemanticCoverage": "Eşin bir huyundan hoşlanmasa diğerinden hoşnut olabilmeyi öğreterek aile içi denge ve tahammülü taşır.",
+      "uncoveredImportantDimensions": [
+        "Aile fertlerine iyi davranma",
+        "Eşler ve çocuklar arasında şefkat ve merhamet"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Aileye iyi davranma, şefkat ve merhametli muamele",
+      "priority": "HIGH",
+      "notes": "Primary aile huzurunun bir mekanizmasını taşır; sevgi ve merhamet boyutu ayrı direct destek gerektirir."
+    },
+    {
+      "topicNumber": 23,
+      "topicTitle": "Çocuk terbiyesi ve ebeveyn sorumluluğu",
+      "topicId": "cocuk-terbiyesi-ve-ebeveyn-sorumlulugu",
+      "primaryHadith": "cocuk-terbiyesi-abu-dawud-495",
+      "primaryCollection": "Sunan Abi Dawud",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "495"
+      },
+      "primarySourceReference": "Sunan Abi Dawud 495",
+      "primaryRelationRationale": "Çocuklara küçük yaştan itibaren namazın öğretilmesi ve yataklarının ayrılması üzerinden ebeveynin dinî eğitim sorumluluğunu doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Çocuklara namazı öğretme/emretme ve yataklarını ayırma üzerinden ebeveynin dinî eğitim sorumluluğunu taşır.",
+      "uncoveredImportantDimensions": [
+        "Çocuğa merhamet ve şefkat",
+        "Ebeveynin örnekliği ve adaletli muamelesi"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Çocuğa merhametli muamele ve ebeveynin olumlu örnekliği",
+      "priority": "MEDIUM",
+      "notes": "Primary dinî eğitim boyutundadır; hassas fıkhî açıklamalar tercümeden ayrı tutulmalıdır."
+    },
+    {
+      "topicNumber": 24,
+      "topicTitle": "Sıla-i rahim ve akrabalık bağları",
+      "topicId": "sila-i-rahim-ve-akrabalik-baglari",
+      "primaryHadith": "sila-i-rahim-bukhari-5991",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5991"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 5991",
+      "primaryRelationRationale": "Gerçek sıla-i rahmin yalnız iyiliğe karşılık vermek olmadığını, akrabalık bağı kesildiğinde dahi ilişkiyi sürdürmeyi açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Gerçek sıla-i rahmin yalnız karşılık vermek değil, bağ kesildiğinde dahi ilişkiyi sürdürmek olduğunu açıkça bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — akrabalık bağını sürdürmenin en zor ve ayırt edici boyutu temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Primary tek başına yüksek kapsama sahiptir."
+    },
+    {
+      "topicNumber": 25,
+      "topicTitle": "Komşuluk",
+      "topicId": "komsuluk",
+      "primaryHadith": "komsuluk-bukhari-6016",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6016"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6016",
+      "primaryRelationRationale": "Komşusunun kötülüğünden emin olmadığı kimse hakkında ağır bir uyarı taşıyarak komşunun güvenliği ve komşuya zarar vermeme ilkesini doğrudan temsil eder.",
+      "primaryHadithSemanticCoverage": "Komşusunun kötülüğünden emin olmadığı kişi hakkında ağır uyarıyla komşuya zarar vermemeyi taşır.",
+      "uncoveredImportantDimensions": [
+        "Komşuya aktif iyilik ve ikram",
+        "Komşunun ihtiyacını gözetme"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Komşuya zarar vermemenin ötesinde aktif iyilik, ikram ve ihtiyaç gözetme",
+      "priority": "MEDIUM",
+      "notes": "Primary negatif güvenlik sınırını çok güçlü taşır; pozitif komşuluk secondary ile zenginleşebilir."
+    },
+    {
+      "topicNumber": 26,
+      "topicTitle": "Haber ve iletişim ahlakı",
+      "topicId": "haber-ve-iletisim-ahlaki",
+      "primaryHadith": "haber-iletisim-bukhari-6475",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6475"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6475",
+      "primaryRelationRationale": "Allah’a ve ahiret gününe iman eden kişinin hayır söylemesini veya susmasını açıkça emreder; canonical topic açısından ana ilişki söz ve iletişim ahlâkıdır.",
+      "primaryHadithSemanticCoverage": "Allah'a ve ahiret gününe iman eden kişinin hayır söylemesini veya susmasını açıkça bildirir.",
+      "uncoveredImportantDimensions": [
+        "Haber doğrulama",
+        "Duyulan her şeyi aktarmama",
+        "Bilginin güvenilirliğini gözetme"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Duyulan her şeyi nakletmemek ve haber/bilgi aktarımında doğruluğu gözetmek",
+      "priority": "HIGH",
+      "notes": "Primary söz üretme ahlâkını taşır; haber alma ve aktarma sorumluluğu canonical başlığın ayrı ana boyutudur."
+    },
+    {
+      "topicNumber": 27,
+      "topicTitle": "Gençlik ve doğru duruş",
+      "topicId": "genclik-ve-dogru-durus",
+      "primaryHadith": "genclik-bukhari-660",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "660"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 660",
+      "primaryRelationRationale": "Allah’ın gölgesinde gölgelenecek yedi sınıftan biri olarak Allah’a ibadet içinde yetişen genci açıkça zikreder ve gençlik ile sağlam dinî duruş çekirdeğini doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Allah'a ibadet içinde yetişen genci, özel mükâfata erişecek yedi sınıftan biri olarak açıkça zikreder.",
+      "uncoveredImportantDimensions": [
+        "Gençlikte baskı veya cazibe karşısında ahlâkî kararlılık",
+        "Doğru duruşu koruma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Gençlikte ayartma, baskı veya imkân karşısında doğru ve iffetli duruşu koruma",
+      "priority": "MEDIUM",
+      "notes": "Primary gençlik ve ibadet bağını taşır; başlıktaki doğru duruş daha belirgin bir örnekle tamamlanmalıdır."
+    },
+    {
+      "topicNumber": 28,
+      "topicTitle": "Ümit ve ümitsizliğe kapılmamak",
+      "topicId": "umit-ve-umitsizlige-kapilmamak",
+      "primaryHadith": "umit-muslim-2877a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2877a"
+      },
+      "primarySourceReference": "Sahih Muslim 2877a",
+      "primaryRelationRationale": "Kişinin Allah hakkında hüsnüzan üzere ölmesini açıkça emrederek Allah’tan iyilik umma ve ümit başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Kişinin Allah hakkında hüsnüzan üzere ölmesini emrederek ölüm anındaki ümit boyutunu taşır.",
+      "uncoveredImportantDimensions": [
+        "Günah sonrası Allah'ın rahmetinden ümit kesmeme",
+        "Ümit ile tövbe ve sorumluluk dengesi"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Günah veya ağır durum sonrasında Allah'ın rahmetinden ümit kesmeme",
+      "priority": "MEDIUM",
+      "notes": "Primary'nin özel bağlamı ölüm anıdır; genel ümit başlığı daha geniş fakat sorumlulukla dengeli bir destek ister."
+    },
+    {
+      "topicNumber": 29,
+      "topicTitle": "İsraf ve ölçülü yaşamak",
+      "topicId": "israf-ve-olculu-yasamak",
+      "primaryHadith": "israf-tirmidhi-2380",
+      "primaryCollection": "Jami at-Tirmidhi",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2380"
+      },
+      "primarySourceReference": "Jami at-Tirmidhi 2380",
+      "primaryRelationRationale": "Midenin gereğinden fazla doldurulmamasını, yeterli miktarla yetinmeyi ve gerektiğinde yemek, içecek ve nefes için ölçü gözetmeyi bildirerek ölçülü tüketim boyutunu doğrudan temsil eder.",
+      "primaryHadithSemanticCoverage": "Midenin aşırı doldurulmamasını ve yemek, içecek, nefes için ölçüyü taşıyarak ölçülü yeme/tüketimi temsil eder.",
+      "uncoveredImportantDimensions": [
+        "Genel harcama ve tüketimde israftan kaçınma",
+        "Kaynakları ölçülü kullanma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Harcama ve genel tüketimde israftan kaçınma, ölçüyü koruma",
+      "priority": "HIGH",
+      "notes": "Primary yalnız yeme/içme alanında çok güçlüdür; başlığın genel israf boyutu açıkça tamamlanmalıdır."
+    },
+    {
+      "topicNumber": 30,
+      "topicTitle": "Adalet",
+      "topicId": "adalet",
+      "primaryHadith": "adalet-muslim-1827",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1827"
+      },
+      "primarySourceReference": "Sahih Muslim 1827",
+      "primaryRelationRationale": "Adaletli davrananları över ve onların hükümlerinde, ailelerine karşı ve sorumluluk alanlarında adaletli olduklarını açıkça bildirir.",
+      "primaryHadithSemanticCoverage": "Adil kimseleri hükümlerinde, ailelerinde ve sorumluluk alanlarında adaletli davranmalarıyla över.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — adalet farklı sorumluluk alanlarıyla birlikte geniş ve direct temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Secondary ancak belirgin yeni bir adalet uygulaması sağlıyorsa düşünülmelidir."
+    },
+    {
+      "topicNumber": 31,
+      "topicTitle": "Kur’an’la yaşamak ve öğüt almak",
+      "topicId": "kuranla-yasamak-ve-ogut-almak",
+      "primaryHadith": "kuranla-yasamak-bukhari-5027",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5027"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 5027",
+      "primaryRelationRationale": "Kur’an’ı öğrenen ve öğretenlerin en hayırlı kimseler olduğunu bildirerek Kur’an’la güçlü bağ kurma, öğrenme ve başkasına aktarma boyutunu doğrudan temsil eder; başlığın bütün boyutları bu tek rivayete yüklenmez.",
+      "primaryHadithSemanticCoverage": "Kur'an'ı öğrenen ve öğretenlerin en hayırlı kimseler olduğunu bildirerek Kur'an'la bilgi ve aktarım bağını taşır.",
+      "uncoveredImportantDimensions": [
+        "Kur'an okuma ve ona bağlılık",
+        "Kur'an rehberliğine göre davranma ve öğüt alma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Kur'an'a bağlılık, ondan öğüt alma ve rehberliğini davranışa taşıma",
+      "priority": "HIGH",
+      "notes": "Primary öğrenme/öğretme boyutunda güçlüdür; canonical başlığın yaşama ve öğüt boyutu ayrı direct destek gerektirir."
+    },
+    {
+      "topicNumber": 32,
+      "topicTitle": "İlim öğrenmek ve bilginin değeri",
+      "topicId": "ilim-ogrenmek-ve-bilginin-degeri",
+      "primaryHadith": "ilim-bukhari-71",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "71"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 71",
+      "primaryRelationRationale": "Allah’ın hakkında hayır dilediği kişiye dinde derin anlayış verdiğini bildirerek ilim ve dinî anlayışın değerini doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Allah'ın hakkında hayır dilediği kişiye dinde derin anlayış vermesini bildirerek dinî bilginin değerini taşır.",
+      "uncoveredImportantDimensions": [
+        "İlim öğrenme yolunda çaba",
+        "Faydalı bilgiyi arama ve öğretme"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Faydalı ilmi arama, öğrenme yoluna girme ve bilgiyi paylaşma",
+      "priority": "MEDIUM",
+      "notes": "Primary dinî anlayışın değerini yeterince taşır; secondary ilim edinme sürecini zenginleştirir."
+    },
+    {
+      "topicNumber": 33,
+      "topicTitle": "Vakit ve ömrü değerlendirmek",
+      "topicId": "vakit-ve-omru-degerlendirmek",
+      "primaryHadith": "vakit-bukhari-6412",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6412"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6412",
+      "primaryRelationRationale": "İnsanların çoğunun değerini yeterince bilmediği sağlık ve boş vakit nimetlerini açıkça bildirerek canonical başlığın vakti değerlendirme boyutunu doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "İnsanların çoğunun değerini bilmediği sağlık ve boş vakit nimetlerini açıkça bildirir.",
+      "uncoveredImportantDimensions": [
+        "Ömrü sona ermeden değerlendirme",
+        "Vakti salih ve faydalı işle doldurma"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Ömür ve imkân geçmeden zamanı faydalı işlerle değerlendirme",
+      "priority": "MEDIUM",
+      "notes": "Primary vakit nimetini güçlü taşır; ömür başlığını tamamlamak faydalı fakat acil değildir."
+    },
+    {
+      "topicNumber": 34,
+      "topicTitle": "Gayret ve emeğin değeri",
+      "topicId": "gayret-ve-emegin-degeri",
+      "primaryHadith": "gayret-muslim-2664",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2664"
+      },
+      "primarySourceReference": "Sahih Muslim 2664",
+      "primaryRelationRationale": "Güçlü müminin faziletini, kişiye fayda verene gayret göstermeyi, Allah’tan yardım istemeyi ve acizliğe teslim olmamayı bildirerek gayret ve çaba boyutunu doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Fayda verene gayret etmeyi, Allah'tan yardım istemeyi ve acizliğe teslim olmamayı açıkça emreder.",
+      "uncoveredImportantDimensions": [
+        "Helâl kazanç ve kişinin kendi emeğinin değeri",
+        "Üretme ve sorumlulukla çalışma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Helâl kazanç, kişinin kendi emeği ve çalışarak üretmenin değeri",
+      "priority": "MEDIUM",
+      "notes": "Primary genel gayret boyutundadır; başlıktaki emek boyutu ekonomik ideolojiye çevrilmeden tamamlanmalıdır."
+    },
+    {
+      "topicNumber": 35,
+      "topicTitle": "Vefa ve sözünde durmak",
+      "topicId": "vefa-ve-sozunde-durmak",
+      "primaryHadith": "vefa-bukhari-34",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "34"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 34",
+      "primaryRelationRationale": "Nifak alametleri arasında ahit yaptığında ahdine ihanet etmeyi açıkça zikrederek ahde vefa ve sözünde durma başlığını doğrudan destekler.",
+      "primaryHadithSemanticCoverage": "Ahit yaptığında hıyaneti nifak alameti sayarak söz ve ahde bağlılığın önemini karşıt yönden açıkça taşır.",
+      "uncoveredImportantDimensions": [
+        "Sözü olumlu biçimde yerine getirme",
+        "Vefanın övgüsü"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Verilen sözü ve ahdi olumlu biçimde yerine getirme",
+      "priority": "MEDIUM",
+      "notes": "Primary negatif ihlal sınırında güçlüdür; pozitif vefa örneği topic'i dengeler."
+    },
+    {
+      "topicNumber": 36,
+      "topicTitle": "Mahremiyet ve özel hayata saygı",
+      "topicId": "mahremiyet-ve-ozel-hayata-saygi",
+      "primaryHadith": "mahremiyet-bukhari-6241",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6241"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6241",
+      "primaryRelationRationale": "İzinsiz biçimde evin içine bakılması olayı üzerinden izin istemenin bakış sebebiyle konulduğunu bildirerek özel alana ve ev mahremiyetine saygıyı doğrudan destekler.",
+      "primaryHadithSemanticCoverage": "İzinsiz bakış olayından hareketle izin istemenin bakış sebebiyle konulduğunu bildirerek ev ve görsel mahremiyeti taşır.",
+      "uncoveredImportantDimensions": [
+        "Sır ve özel bilginin korunması",
+        "Tecessüs ve gizli durumları araştırmama"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Sırları ve özel bilgiyi koruma, başkasının gizli durumlarını araştırmama",
+      "priority": "MEDIUM",
+      "notes": "Primary fiziksel ev/bakış mahremiyetindedir; modern mevzuat iddiası üretmeden daha genel özel hayat boyutu tamamlanmalıdır."
+    },
+    {
+      "topicNumber": 37,
+      "topicTitle": "Suizan ve zanlardan sakınmak",
+      "topicId": "suizan-ve-zanlardan-sakinmak",
+      "primaryHadith": "suizan-bukhari-6064",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6064"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6064",
+      "primaryRelationRationale": "Zandan sakınmayı açıkça emreder ve zannın sözün en yalanı olduğunu bildirir; canonical suizan başlığıyla doğrudan ilişkilidir.",
+      "primaryHadithSemanticCoverage": "Zandan sakınmayı, zannın sözlerin en yalanı oluşunu ve tecessüs gibi bağlantılı davranışları açıkça taşır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — suizan hem açık emir hem bağlantılı davranışlarla yeterince temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Mevcut full matn yüksek kapsama sahiptir."
+    },
+    {
+      "topicNumber": 38,
+      "topicTitle": "İftira ve asılsız söz",
+      "topicId": "iftira-ve-asilsiz-soz",
+      "primaryHadith": "iftira-bukhari-2654",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2654"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 2654",
+      "primaryRelationRationale": "Büyük günahlar arasında yalan ve asılsız söz konusunda güçlü, tekrarlı bir uyarı taşıyarak canonical topic’in asılsız söz boyutunu doğrudan temsil eder.",
+      "primaryHadithSemanticCoverage": "Büyük günahlar arasında asılsız/yalan söz ve yalancı şahitlik konusunda tekrarlı, güçlü uyarı taşır.",
+      "uncoveredImportantDimensions": [
+        "Bir kimseye işlemediği bir fiili isnat etme",
+        "İftiranın kişiye yönelen suçlama boyutu"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Bir kişiye işlemediği şeyi isnat etme ve asılsız suçlamadan sakınma",
+      "priority": "HIGH",
+      "notes": "Primary asılsız söz boyutunda direct'tir; canonical başlığın iftira yarısı ayrı direct secondary gerektirir."
+    },
+    {
+      "topicNumber": 39,
+      "topicTitle": "Alay, küçümseme ve kötü lakap",
+      "topicId": "alay-kucumseme-ve-kotu-lakap",
+      "primaryHadith": "alay-kucumseme-muslim-2564a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2564a"
+      },
+      "primarySourceReference": "Sahih Muslim 2564a",
+      "primaryRelationRationale": "Müslüman kardeşini küçümsememeyi ve bir kimsenin kardeşini küçümsemesinin ona kötülük olarak yeteceğini bildirerek canonical topic’in küçümseme boyutunu doğrudan temsil eder.",
+      "primaryHadithSemanticCoverage": "Müslüman kardeşi küçümsememeyi ve küçümsemenin kişiye kötülük olarak yeterli oluşunu açıkça bildirir.",
+      "uncoveredImportantDimensions": [
+        "Alay etme",
+        "Kötü veya incitici lakapla çağırma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Alay etmekten ve kötü/incitici lakap kullanmaktan sakınma",
+      "priority": "HIGH",
+      "notes": "Primary yalnız küçümseme boyutunda direct'tir; başlığın diğer iki açık unsuru hadis katmanında eksiktir."
+    },
+    {
+      "topicNumber": 40,
+      "topicTitle": "Dostluk ve arkadaş seçimi",
+      "topicId": "dostluk-ve-arkadas-secimi",
+      "primaryHadith": "dostluk-bukhari-5534",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5534"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 5534",
+      "primaryRelationRationale": "İyi ve kötü arkadaşın etkisini misk taşıyan ve körük üfleyen kişi benzetmeleriyle anlatarak arkadaş seçiminin fayda ve zarar boyutunu doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "İyi ve kötü arkadaşın etkisini misk taşıyan ile körük üfleyen benzetmesiyle fayda ve zarar yönleriyle açıkça anlatır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — arkadaş seçiminin etkisi güçlü ve dengeli bir benzetmeyle temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Benzer anlamlı secondary sırf meşhur olduğu için eklenmemelidir."
+    },
+    {
+      "topicNumber": 41,
+      "topicTitle": "İnsanların arasını düzeltmek",
+      "topicId": "insanlarin-arasini-duzeltmek",
+      "primaryHadith": "insanlarin-arasini-duzeltmek-bukhari-2692",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2692"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 2692",
+      "primaryRelationRationale": "İnsanların arasını düzelten ve bu amaçla hayırlı söz aktaran kimseyi açıkça işleyerek canonical topic ile doğrudan ilişki kurar.",
+      "primaryHadithSemanticCoverage": "İnsanların arasını düzeltmek amacıyla hayır taşıyan veya hayır söyleyen kişiyi doğrudan işler.",
+      "uncoveredImportantDimensions": [
+        "Sulhun fazileti",
+        "Adaletli arabuluculuk ve çatışmayı sona erdirme"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Adaletli arabuluculuk ve insanlar arasında sulhun fazileti",
+      "priority": "MEDIUM",
+      "notes": "Primary direct'tir fakat fıkhî sınırı hassastır; secondary sulhu daha nötr ve olumlu bir eksende zenginleştirebilir."
+    },
+    {
+      "topicNumber": 42,
+      "topicTitle": "Kötülüğe iyilikle karşılık vermek",
+      "topicId": "kotuluge-iyilikle-karsilik-vermek",
+      "primaryHadith": "kotuluge-iyilikle-karsilik-vermek-muslim-2558a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2558a"
+      },
+      "primarySourceReference": "Sahih Muslim 2558a",
+      "primaryRelationRationale": "Akrabaları bağı kestiği hâlde bağı sürdürme, onlar kötülük ettiği hâlde iyilik etme ve kaba davrandıkları hâlde hilm gösterme tutumunu işleyerek kötülüğe iyilikle karşılık verme başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Akrabaları bağı kesip kötülük ettiği halde ilişkiyi ve iyiliği sürdüren kişiyi destekleyerek kötülüğe iyilikle karşılığı taşır.",
+      "uncoveredImportantDimensions": [
+        "Akrabalık dışındaki kötülüğe güzel karşılık",
+        "Affetme ve iyilikle savma"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Akrabalık bağlamı dışında zarara iyilik, af ve güzel davranışla karşılık verme",
+      "priority": "MEDIUM",
+      "notes": "Primary çok güçlü bir pratik örnektir; secondary bağlamı genişletirse anlamlı olur."
+    },
+    {
+      "topicNumber": 43,
+      "topicTitle": "İyilik ve ihsan",
+      "topicId": "iyilik-ve-ihsan",
+      "primaryHadith": "iyilik-ve-ihsan-muslim-1955a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1955a"
+      },
+      "primarySourceReference": "Sahih Muslim 1955a",
+      "primaryRelationRationale": "Allah’ın her şeyde ihsanı emrettiğini açıkça bildirerek canonical iyilik ve ihsan başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Allah'ın her şeyde ihsanı emrettiğini bildirir; uygulamayı öldürme ve hayvan kesiminde eziyeti azaltma üzerinden gösterir.",
+      "uncoveredImportantDimensions": [
+        "İnsanlara genel iyilik",
+        "İhsanın sosyal ve günlük davranış boyutu"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "İnsanlara genel iyilik ve günlük ilişkilerde ihsan",
+      "priority": "MEDIUM",
+      "notes": "Primary genel ilkeyi taşır fakat uygulama bağlamı kesimdir; sosyal iyilik boyutu katalog kalitesini belirgin artırır."
+    },
+    {
+      "topicNumber": 44,
+      "topicTitle": "Yetimlere karşı sorumluluk",
+      "topicId": "yetimlere-karsi-sorumluluk",
+      "primaryHadith": "yetimlere-karsi-sorumluluk-bukhari-6005",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6005"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6005",
+      "primaryRelationRationale": "Yetime kefil olan ve bakımını üstlenen kişinin faziletini açıkça bildirerek yetimlere karşı sorumluluk başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Yetime kefil olan/bakımını üstlenen kişinin cennette Hz. Peygamber'e yakınlığını işaret anlatımıyla açıkça taşır.",
+      "uncoveredImportantDimensions": [
+        "Yetimin mal ve haklarını koruma",
+        "Yetime kötü davranmama"
+      ],
+      "secondHadithNeed": "USEFUL",
+      "desiredSecondarySemanticTarget": "Yetimin hakkını ve malını koruma, ona zarar vermeme",
+      "priority": "LOW",
+      "notes": "Primary bakım sorumluluğunda güçlüdür; hak koruma boyutu faydalı fakat ilk batch için acil değildir."
+    },
+    {
+      "topicNumber": 45,
+      "topicTitle": "Riya ve gösterişten sakınmak",
+      "topicId": "riya-ve-gosteristen-sakinmak",
+      "primaryHadith": "riya-ve-gosteristen-sakinmak-bukhari-6499",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6499"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6499",
+      "primaryRelationRationale": "İnsanların duyması veya görmesi için amel etme ve gösteriş tutumunu açıkça işleyerek riya başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Amelini insanlara duyurma ve gösteriş için yapmanın karşılığını açıkça bildirerek riya ve süm'a çekirdeğini taşır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — riya ve duyurma/gösteriş topic'i doğrudan temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Niyetin bütün alanları bu topic altında biriktirilmemelidir."
+    },
+    {
+      "topicNumber": 46,
+      "topicTitle": "İffet ve haya",
+      "topicId": "iffet-ve-haya",
+      "primaryHadith": "iffet-ve-haya-bukhari-6117",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6117"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 6117",
+      "primaryRelationRationale": "Hayânın yalnız hayır getirdiğini açıkça bildirerek canonical başlığın haya boyutunu doğrudan temsil eder.",
+      "primaryHadithSemanticCoverage": "Hayânın ancak hayır getirdiğini açıkça bildirerek canonical başlığın haya tarafını güçlü biçimde taşır.",
+      "uncoveredImportantDimensions": [
+        "İffeti koruma",
+        "Bakış ve cinsel sınırları muhafaza etme"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "İffeti koruma ve haramdan sakınarak kişisel sınırları muhafaza etme",
+      "priority": "HIGH",
+      "notes": "Primary yalnız haya boyutundadır; başlığın iffet yarısı ayrı direct secondary gerektirir."
+    },
+    {
+      "topicNumber": 47,
+      "topicTitle": "İnsan onuru ve saygınlığı",
+      "topicId": "insan-onuru-ve-sayginligi",
+      "primaryHadith": "insan-onuru-ve-sayginligi-bukhari-1739",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1739"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 1739",
+      "primaryRelationRationale": "Veda hutbesi bağlamında can, mal ve ırzın dokunulmazlığını bildirerek insan onuru ve saygınlığı başlığını doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Can, mal ve ırz/onurun dokunulmazlığını Veda hutbesi bağlamında güçlü ve doğrudan biçimde taşır.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — insan onurunun ana dokunulmazlık alanları birlikte temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Modern insan hakları hukukunun bütün maddeleri bu rivayete yüklenmemeli; bu sunum sınırı secondary ihtiyacı doğurmaz."
+    },
+    {
+      "topicNumber": 48,
+      "topicTitle": "Yumuşak söz ve güzel konuşmak",
+      "topicId": "yumusak-soz-ve-guzel-konusmak",
+      "primaryHadith": "yumusak-soz-ve-guzel-konusmak-bukhari-2989",
+      "primaryCollection": "Sahih al-Bukhari",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2989"
+      },
+      "primarySourceReference": "Sahih al-Bukhari 2989",
+      "primaryRelationRationale": "Güzel sözün sadaka olduğunu açıkça bildirerek canonical başlığın güzel konuşmak ve güzel söz boyutunu doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Güzel sözün sadaka olduğunu açıkça bildirerek başlığın güzel konuşma tarafını doğrudan taşır.",
+      "uncoveredImportantDimensions": [
+        "Rifk ve yumuşak muamele",
+        "Sertlikten kaçınma"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Rifk, yumuşak muamele ve sertlikten sakınma",
+      "priority": "HIGH",
+      "notes": "Primary güzel söz boyutunda güçlüdür; canonical başlığın yumuşaklık yarısı ayrı direct secondary gerektirir."
+    },
+    {
+      "topicNumber": 49,
+      "topicTitle": "Haksızlık ve zulümden sakınmak",
+      "topicId": "haksizlik-ve-zulumden-sakinmak",
+      "primaryHadith": "haksizlik-ve-zulumden-sakinmak-muslim-2577a",
+      "primaryCollection": "Sahih Muslim",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2577a"
+      },
+      "primarySourceReference": "Sahih Muslim 2577a",
+      "primaryRelationRationale": "Zulmün haram kılındığını ve kulların birbirlerine zulmetmemesini açıkça bildiren hadis-i kudsî olarak canonical başlığı doğrudan taşır.",
+      "primaryHadithSemanticCoverage": "Hadis-i kudsîde zulmün haram kılındığını ve insanların birbirine zulmetmemesini genel ve açık biçimde bildirir.",
+      "uncoveredImportantDimensions": [],
+      "secondHadithNeed": "NONE_FOR_NOW",
+      "desiredSecondarySemanticTarget": "Yok — zulüm yasağı genel, doğrudan ve güçlü biçimde temsil ediliyor",
+      "priority": "LOW",
+      "notes": "Mevcut primary başlık için yüksek kapsama sahiptir."
+    },
+    {
+      "topicNumber": 50,
+      "topicTitle": "Nefis muhasebesi ve kendini düzeltmek",
+      "topicId": "nefis-muhasebesi-ve-kendini-duzeltmek",
+      "primaryHadith": "nefis-muhasebesi-tirmidhi-2406",
+      "primaryCollection": "Jami at-Tirmidhi",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2406"
+      },
+      "primarySourceReference": "Jami at-Tirmidhi 2406",
+      "primaryRelationRationale": "Dili tutma, evin kişiye yetmesi ve kendi hatasına ağlama öğüdüyle kişinin kendi durumunu sorgulaması ve kendini düzeltmesi başlığını doğrudan destekler.",
+      "primaryHadithSemanticCoverage": "Dili tutma, evin kişiye yetmesi ve kendi hatasına ağlama öğütleriyle öz denetim ve kendini düzeltmeye yönelişi taşır.",
+      "uncoveredImportantDimensions": [
+        "Amelleri düzenli biçimde gözden geçirme",
+        "Yanlışı fark ettikten sonra davranışı düzeltme"
+      ],
+      "secondHadithNeed": "NEEDED",
+      "desiredSecondarySemanticTarget": "Kişinin amellerini hesaba çekmesi ve hatasını somut biçimde düzeltmesi",
+      "priority": "MEDIUM",
+      "notes": "Primary öz eleştiri yönünde güçlü fakat şemsiye başlık daha sistematik muhasebe ve düzeltme boyutu ister; grading ihtilaf notu korunmalıdır."
+    }
+  ],
+  "changes": {
+    "canonicalHadithDataChanged": false,
+    "newHadithAdded": false,
+    "translationChanged": false,
+    "gradingChanged": false,
+    "uiChanged": false
+  }
+}

@@ -1,0 +1,863 @@
+{
+  "generatedAt": "2026-09-02",
+  "sourceOfTruth": false,
+  "policy": "Doğru eşleşme, 50/50 Türkçe link doldurmaktan önce gelir. Parallel bağlantılar ana Türkçe oku eylemine girmez.",
+  "counts": {
+    "exactDiyanet": 18,
+    "parallelDiyanet": 2,
+    "notFound": 30,
+    "arabicSourceProviderCoverage": 50
+  },
+  "records": [
+    {
+      "topicNumber": 1,
+      "topic": "Sabır",
+      "hadithId": "sabir-bukhari-1469",
+      "sourceReference": "Sahih al-Bukhari 1469",
+      "narrator": "Ebû Saîd el-Hudrî",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:1469",
+        "url": "https://sunnah.com/bukhari:1469"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 2,
+      "topic": "Tevekkül",
+      "hadithId": "tevekkul-bukhari-6472",
+      "sourceReference": "Sahih al-Bukhari 6472",
+      "narrator": "İbn Abbâs",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6472",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=6&SAYFA=189",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6472",
+        "url": "https://sunnah.com/bukhari:6472"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 3,
+      "topic": "Anne-babaya iyilik",
+      "hadithId": "anne-babaya-iyilik-bukhari-5971",
+      "sourceReference": "Sahih al-Bukhari 5971",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B5971",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=179",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:5971",
+        "url": "https://sunnah.com/bukhari:5971"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 4,
+      "topic": "Dua",
+      "hadithId": "dua-bukhari-6340",
+      "sourceReference": "Sahih al-Bukhari 6340",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6340",
+        "url": "https://sunnah.com/bukhari:6340"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 5,
+      "topic": "Şükür",
+      "hadithId": "sukur-muslim-2734a",
+      "sourceReference": "Sahih Muslim 2734a",
+      "narrator": "Enes b. Mâlik",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "M6932",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=1&SAYFA=190",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2734a",
+        "url": "https://sunnah.com/muslim:2734a"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 6,
+      "topic": "Ölüm ve hayatın geçiciliği",
+      "hadithId": "olum-ve-hayatin-geciciligi-bukhari-6416",
+      "sourceReference": "Sahih al-Bukhari 6416",
+      "narrator": "Abdullah b. Ömer",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6416",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=1&SAYFA=339",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6416",
+        "url": "https://sunnah.com/bukhari:6416"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 7,
+      "topic": "Kul hakkı",
+      "hadithId": "kul-hakki-bukhari-2449",
+      "sourceReference": "Sahih al-Bukhari 2449",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2449",
+        "url": "https://sunnah.com/bukhari:2449"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 8,
+      "topic": "Tövbe ve pişmanlık",
+      "hadithId": "tovbe-ve-pismanlik-bukhari-6309",
+      "sourceReference": "Sahih al-Bukhari 6309",
+      "narrator": "Enes b. Mâlik",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6309",
+        "url": "https://sunnah.com/bukhari:6309"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 9,
+      "topic": "Kardeşlik",
+      "hadithId": "kardeslik-bukhari-13",
+      "sourceReference": "Sahih al-Bukhari 13",
+      "narrator": "Enes b. Mâlik",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B13",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=351",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:13",
+        "url": "https://sunnah.com/bukhari:13"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 10,
+      "topic": "Namazın önemi ve manevî etkisi",
+      "hadithId": "namazin-onemi-ve-manevi-etkisi-bukhari-528",
+      "sourceReference": "Sahih al-Bukhari 528",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B528",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=2&SAYFA=175",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:528",
+        "url": "https://sunnah.com/bukhari:528"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 11,
+      "topic": "Ahiret ve hesap bilinci",
+      "hadithId": "ahiret-hesap-bukhari-6536",
+      "sourceReference": "Sahih al-Bukhari 6536",
+      "narrator": "Âişe",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6536",
+        "url": "https://sunnah.com/bukhari:6536"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 12,
+      "topic": "Güzel ahlak",
+      "hadithId": "guzel-ahlak-bukhari-3559",
+      "sourceReference": "Sahih al-Bukhari 3559",
+      "narrator": "Abdullah b. Amr b. Âs",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:3559",
+        "url": "https://sunnah.com/bukhari:3559"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 13,
+      "topic": "Doğruluk ve dürüstlük",
+      "hadithId": "dogruluk-bukhari-6094",
+      "sourceReference": "Sahih al-Bukhari 6094",
+      "narrator": "Abdullah b. Mes’ûd",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6094",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=7&SAYFA=637",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6094",
+        "url": "https://sunnah.com/bukhari:6094"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 14,
+      "topic": "Gıybet ve dili korumak",
+      "hadithId": "giybet-muslim-2589",
+      "sourceReference": "Sahih Muslim 2589",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "M6593",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=467",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2589",
+        "url": "https://sunnah.com/muslim:2589"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 15,
+      "topic": "Öfkeye hâkim olmak",
+      "hadithId": "ofke-bukhari-6114",
+      "sourceReference": "Sahih al-Bukhari 6114",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6114",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=210",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6114",
+        "url": "https://sunnah.com/bukhari:6114"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 16,
+      "topic": "Affetmek ve bağışlamak",
+      "hadithId": "affetmek-muslim-2588",
+      "sourceReference": "Sahih Muslim 2588",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2588",
+        "url": "https://sunnah.com/muslim:2588"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 17,
+      "topic": "Merhamet",
+      "hadithId": "merhamet-bukhari-7376",
+      "sourceReference": "Sahih al-Bukhari 7376",
+      "narrator": "Cerîr b. Abdullah",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B7376",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=87",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:7376",
+        "url": "https://sunnah.com/bukhari:7376"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 18,
+      "topic": "Kibir ve büyüklenme",
+      "hadithId": "kibir-muslim-91a",
+      "sourceReference": "Sahih Muslim 91a",
+      "narrator": "Abdullah b. Mes’ûd",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:91a",
+        "url": "https://sunnah.com/muslim:91a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 19,
+      "topic": "Haset ve kıskançlık",
+      "hadithId": "haset-bukhari-6065",
+      "sourceReference": "Sahih al-Bukhari 6065",
+      "narrator": "Enes b. Mâlik",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6065",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=313",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6065",
+        "url": "https://sunnah.com/bukhari:6065"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 20,
+      "topic": "Emanet ve sorumluluk",
+      "hadithId": "emanet-sorumluluk-bukhari-7138",
+      "sourceReference": "Sahih al-Bukhari 7138",
+      "narrator": "Abdullah b. Ömer",
+      "diyanetStatus": "parallel",
+      "diyanetLocator": "B2409",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=97",
+      "matchType": "parallel",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:7138",
+        "url": "https://sunnah.com/bukhari:7138"
+      },
+      "notes": "Aynı sorumluluk matnının farklı Buhârî kaydıdır; canonical Buhârî 7138 ile birebir provider kaydı değildir ve ana Türkçe oku bağlantısı olarak kullanılmaz."
+    },
+    {
+      "topicNumber": 21,
+      "topic": "Yardımlaşma ve cömertlik",
+      "hadithId": "yardimlasma-muslim-2699a",
+      "sourceReference": "Sahih Muslim 2699a",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2699a",
+        "url": "https://sunnah.com/muslim:2699a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 22,
+      "topic": "Ailede sevgi, huzur ve merhamet",
+      "hadithId": "aile-huzuru-muslim-1468b",
+      "sourceReference": "Sahih Muslim 1468b",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:1468b",
+        "url": "https://sunnah.com/muslim:1468b"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 23,
+      "topic": "Çocuk terbiyesi ve ebeveyn sorumluluğu",
+      "hadithId": "cocuk-terbiyesi-abu-dawud-495",
+      "sourceReference": "Sunan Abi Dawud 495",
+      "narrator": "Abdullah b. Amr b. Âs",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:495",
+        "url": "https://sunnah.com/abudawud:495"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 24,
+      "topic": "Sıla-i rahim ve akrabalık bağları",
+      "hadithId": "sila-i-rahim-bukhari-5991",
+      "sourceReference": "Sahih al-Bukhari 5991",
+      "narrator": "Abdullah b. Amr",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B5991",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=198",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:5991",
+        "url": "https://sunnah.com/bukhari:5991"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 25,
+      "topic": "Komşuluk",
+      "hadithId": "komsuluk-bukhari-6016",
+      "sourceReference": "Sahih al-Bukhari 6016",
+      "narrator": "Ebû Şüreyh",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6016",
+        "url": "https://sunnah.com/bukhari:6016"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 26,
+      "topic": "Haber ve iletişim ahlakı",
+      "hadithId": "haber-iletisim-bukhari-6475",
+      "sourceReference": "Sahih al-Bukhari 6475",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6475",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=337",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6475",
+        "url": "https://sunnah.com/bukhari:6475"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 27,
+      "topic": "Gençlik ve doğru duruş",
+      "hadithId": "genclik-bukhari-660",
+      "sourceReference": "Sahih al-Bukhari 660",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:660",
+        "url": "https://sunnah.com/bukhari:660"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 28,
+      "topic": "Ümit ve ümitsizliğe kapılmamak",
+      "hadithId": "umit-muslim-2877a",
+      "sourceReference": "Sahih Muslim 2877a",
+      "narrator": "Câbir b. Abdullah",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2877a",
+        "url": "https://sunnah.com/muslim:2877a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 29,
+      "topic": "İsraf ve ölçülü yaşamak",
+      "hadithId": "israf-tirmidhi-2380",
+      "sourceReference": "Jami at-Tirmidhi 2380",
+      "narrator": "Mikdâm b. Ma‘dîkerib",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "T2380",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=7&SAYFA=415",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2380",
+        "url": "https://sunnah.com/tirmidhi:2380"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 30,
+      "topic": "Adalet",
+      "hadithId": "adalet-muslim-1827",
+      "sourceReference": "Sahih Muslim 1827",
+      "narrator": "Abdullah b. Amr",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:1827",
+        "url": "https://sunnah.com/muslim:1827"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 31,
+      "topic": "Kur’an’la yaşamak ve öğüt almak",
+      "hadithId": "kuranla-yasamak-bukhari-5027",
+      "sourceReference": "Sahih al-Bukhari 5027",
+      "narrator": "Osman b. Affân",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:5027",
+        "url": "https://sunnah.com/bukhari:5027"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 32,
+      "topic": "İlim öğrenmek ve bilginin değeri",
+      "hadithId": "ilim-bukhari-71",
+      "sourceReference": "Sahih al-Bukhari 71",
+      "narrator": "Muâviye b. Ebû Süfyân",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:71",
+        "url": "https://sunnah.com/bukhari:71"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 33,
+      "topic": "Vakit ve ömrü değerlendirmek",
+      "hadithId": "vakit-bukhari-6412",
+      "sourceReference": "Sahih al-Bukhari 6412",
+      "narrator": "Abdullah b. Abbâs",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6412",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=515",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6412",
+        "url": "https://sunnah.com/bukhari:6412"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 34,
+      "topic": "Gayret ve emeğin değeri",
+      "hadithId": "gayret-muslim-2664",
+      "sourceReference": "Sahih Muslim 2664",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2664",
+        "url": "https://sunnah.com/muslim:2664"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 35,
+      "topic": "Vefa ve sözünde durmak",
+      "hadithId": "vefa-bukhari-34",
+      "sourceReference": "Sahih al-Bukhari 34",
+      "narrator": "Abdullah b. Amr b. Âs",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:34",
+        "url": "https://sunnah.com/bukhari:34"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 36,
+      "topic": "Mahremiyet ve özel hayata saygı",
+      "hadithId": "mahremiyet-bukhari-6241",
+      "sourceReference": "Sahih al-Bukhari 6241",
+      "narrator": "Sehl b. Sa‘d",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6241",
+        "url": "https://sunnah.com/bukhari:6241"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 37,
+      "topic": "Suizan ve zanlardan sakınmak",
+      "hadithId": "suizan-bukhari-6064",
+      "sourceReference": "Sahih al-Bukhari 6064",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B6064",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=85",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6064",
+        "url": "https://sunnah.com/bukhari:6064"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 38,
+      "topic": "İftira ve asılsız söz",
+      "hadithId": "iftira-bukhari-2654",
+      "sourceReference": "Sahih al-Bukhari 2654",
+      "narrator": "Ebû Bekre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2654",
+        "url": "https://sunnah.com/bukhari:2654"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 39,
+      "topic": "Alay, küçümseme ve kötü lakap",
+      "hadithId": "alay-kucumseme-muslim-2564a",
+      "sourceReference": "Sahih Muslim 2564a",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2564a",
+        "url": "https://sunnah.com/muslim:2564a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 40,
+      "topic": "Dostluk ve arkadaş seçimi",
+      "hadithId": "dostluk-bukhari-5534",
+      "sourceReference": "Sahih al-Bukhari 5534",
+      "narrator": "Ebû Mûsâ el-Eş‘arî",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B5534",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=347",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:5534",
+        "url": "https://sunnah.com/bukhari:5534"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 41,
+      "topic": "İnsanların arasını düzeltmek",
+      "hadithId": "insanlarin-arasini-duzeltmek-bukhari-2692",
+      "sourceReference": "Sahih al-Bukhari 2692",
+      "narrator": "Ümmü Külsûm bint Ukbe",
+      "diyanetStatus": "exact",
+      "diyanetLocator": "B2692",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=2&SAYFA=562",
+      "matchType": "exact",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2692",
+        "url": "https://sunnah.com/bukhari:2692"
+      },
+      "notes": "Diyanet iç numaralandırması canonical global numaralandırmadan farklı olabilir."
+    },
+    {
+      "topicNumber": 42,
+      "topic": "Kötülüğe iyilikle karşılık vermek",
+      "hadithId": "kotuluge-iyilikle-karsilik-vermek-muslim-2558a",
+      "sourceReference": "Sahih Muslim 2558a",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2558a",
+        "url": "https://sunnah.com/muslim:2558a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 43,
+      "topic": "İyilik ve ihsan",
+      "hadithId": "iyilik-ve-ihsan-muslim-1955a",
+      "sourceReference": "Sahih Muslim 1955a",
+      "narrator": "Şeddâd b. Evs",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:1955a",
+        "url": "https://sunnah.com/muslim:1955a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 44,
+      "topic": "Yetimlere karşı sorumluluk",
+      "hadithId": "yetimlere-karsi-sorumluluk-bukhari-6005",
+      "sourceReference": "Sahih al-Bukhari 6005",
+      "narrator": "Sehl b. Sa‘d",
+      "diyanetStatus": "parallel",
+      "diyanetLocator": "B5304",
+      "diyanetUrl": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=287",
+      "matchType": "parallel",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6005",
+        "url": "https://sunnah.com/bukhari:6005"
+      },
+      "notes": "Aynı Prophetic matnın farklı Buhârî kaydıdır; canonical Buhârî 6005 ile birebir provider kaydı değildir ve ana Türkçe oku bağlantısı olarak kullanılmaz."
+    },
+    {
+      "topicNumber": 45,
+      "topic": "Riya ve gösterişten sakınmak",
+      "hadithId": "riya-ve-gosteristen-sakinmak-bukhari-6499",
+      "sourceReference": "Sahih al-Bukhari 6499",
+      "narrator": "Cündeb",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6499",
+        "url": "https://sunnah.com/bukhari:6499"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 46,
+      "topic": "İffet ve haya",
+      "hadithId": "iffet-ve-haya-bukhari-6117",
+      "sourceReference": "Sahih al-Bukhari 6117",
+      "narrator": "İmrân b. Husayn",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:6117",
+        "url": "https://sunnah.com/bukhari:6117"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 47,
+      "topic": "İnsan onuru ve saygınlığı",
+      "hadithId": "insan-onuru-ve-sayginligi-bukhari-1739",
+      "sourceReference": "Sahih al-Bukhari 1739",
+      "narrator": "Abdullah b. Abbâs",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:1739",
+        "url": "https://sunnah.com/bukhari:1739"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 48,
+      "topic": "Yumuşak söz ve güzel konuşmak",
+      "hadithId": "yumusak-soz-ve-guzel-konusmak-bukhari-2989",
+      "sourceReference": "Sahih al-Bukhari 2989",
+      "narrator": "Ebû Hüreyre",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2989",
+        "url": "https://sunnah.com/bukhari:2989"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 49,
+      "topic": "Haksızlık ve zulümden sakınmak",
+      "hadithId": "haksizlik-ve-zulumden-sakinmak-muslim-2577a",
+      "sourceReference": "Sahih Muslim 2577a",
+      "narrator": "Ebû Zer",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2577a",
+        "url": "https://sunnah.com/muslim:2577a"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    },
+    {
+      "topicNumber": 50,
+      "topic": "Nefis muhasebesi ve kendini düzeltmek",
+      "hadithId": "nefis-muhasebesi-tirmidhi-2406",
+      "sourceReference": "Jami at-Tirmidhi 2406",
+      "narrator": "Ukbe b. Âmir",
+      "diyanetStatus": "not_found",
+      "diyanetLocator": null,
+      "diyanetUrl": null,
+      "matchType": "not_found",
+      "arabicProvider": {
+        "providerId": "sunnah-com",
+        "locator": "collection_global:2406",
+        "url": "https://sunnah.com/tirmidhi:2406"
+      },
+      "notes": "V1 taramasında canonical rivayetle birebir veya açıkça açıklanabilir paralel Türkçe provider kaydı güvenle doğrulanamadı; tahminî bağlantı verilmedi."
+    }
+  ]
+}

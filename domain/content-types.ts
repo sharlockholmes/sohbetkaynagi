@@ -1,0 +1,15 @@
+export type TopicReviewStatus="draft"|"reviewed"|"approved";
+export type VerseRelationType="direct"|"related";
+export type SourceQualityClass="A"|"B"|"C"|"D"|"X";
+export type SourceUsageRole="primary"|"supporting"|"comparison";
+export type SourceContentType="meal"|"tafsir"|"quran"|"reference";
+export type SourceLinkStrategy="author-verse-page"|"official-work-page"|"tahavi-ayah-range"|"direct-ayah-page";
+export type Topic={id:string;slug:string;title:string;summary:string;aliases:string[];searchPhrases:string[];categories:string[];tags:string[];directVerses:string[];relatedVerses:string[];reviewStatus:TopicReviewStatus;reviewedAt:string;reviewerNote:string};
+export type VerseReference={id:string;surahNumber:number;surahNameTr:string;ayahStart:number;ayahEnd?:number;relevanceReason:string;relationType:VerseRelationType;verified:boolean;provenance:string|null};
+export type TaxonomyCategory={id:string;title:string;description:string};
+export type SurahMetadata={surahNumber:number;nameTr:string;ayahCount:number;kuranVeMealiSlug:string;diyanetPathName:string};
+export type SourceWork={id:string;title:string;author?:string;institution?:string;theologicalLine:string;usageRole:SourceUsageRole;qualityClass:SourceQualityClass;description:string};
+export type SourceProvider={id:string;providerName:string;providerDomain:string;baseUrl:string;contentType:SourceContentType;strategy:SourceLinkStrategy;verified:boolean;lastCheckedAt:string;fallbackUrl:string};
+export type SourceLink={id:string;sourceWorkId:string;providerId:string;authorSlug?:string;urlTemplate?:string};
+export type BuiltSourceLink={id:string;work:SourceWork;provider:SourceProvider;contentType:SourceContentType;url:string;surahFallbackUrl:string;generalFallbackUrl:string;label:string;rangeLabel?:string};
+export type BuiltSourceGroup={work:SourceWork;actions:BuiltSourceLink[]};

@@ -1,0 +1,60 @@
+diff --git a/app/layout.tsx b/app/layout.tsx
+--- a/app/layout.tsx
++++ b/app/layout.tsx
+@@ -1,17 +1,31 @@
+ import type { Metadata } from "next";
++import { SITE_NAME, SITE_URL } from "@/data/site";
+ import "./globals.css";
+ 
+ export const metadata: Metadata = {
+-  title: "Kur'an Kaynak Motoru | GÜL STUDIOS",
++  metadataBase: new URL(SITE_URL),
++  title: {
++    default: "Kur’an Kaynak Motoru | GÜL STUDIOS",
++    template: "%s | GÜL STUDIOS",
++  },
+   description: "Kur'an'da bir konuyu ayetler ve güvenilir kaynaklarla keşfedin.",
++  applicationName: SITE_NAME,
++  alternates: { canonical: "/" },
++  openGraph: {
++    title: "Kur’an Kaynak Motoru | GÜL STUDIOS",
++    description: "Kur'an'da bir konuyu ayetler ve güvenilir kaynaklarla keşfedin.",
++    url: "/",
++    siteName: SITE_NAME,
++    locale: "tr_TR",
++    type: "website",
++  },
++  robots: { index: true, follow: true },
+ };
+ 
+ export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+   return (
+-    <html lang="tr">
++    <html lang="tr" data-scroll-behavior="smooth">
+       <body>{children}</body>
+     </html>
+   );
+ }
+diff --git a/package.json b/package.json
+--- a/package.json
++++ b/package.json
+@@ -6,7 +6,7 @@
+     "dev": "next dev",
+     "build": "next build",
+     "start": "next start",
+-    "lint": "next lint"
++    "typecheck": "tsc --noEmit"
+   },
+   "dependencies": {
+     "next": "^16.3.1",
+@@ -15,8 +15,8 @@
+   },
+   "devDependencies": {
+     "@types/node": "^20.16.11",
+-    "@types/react": "^18.3.10",
+-    "@types/react-dom": "^18.3.0",
++    "@types/react": "^19.2.14",
++    "@types/react-dom": "^19.2.3",
+     "typescript": "^5.6.2"
+   }
+ }

@@ -1,0 +1,87 @@
+diff --git a/app/konu/[slug]/page.tsx b/app/konu/[slug]/page.tsx
+--- a/app/konu/[slug]/page.tsx
++++ b/app/konu/[slug]/page.tsx
+@@ -1,44 +1,40 @@
+-import Link from "next/link";
++import type { Metadata } from "next";
+ import { notFound } from "next/navigation";
+-import { Footer } from "@/components/footer";
+-import { Header } from "@/components/header";
+-import { SearchForm } from "@/components/search-form";
+-import { getTopic, topics } from "@/data/topics";
++import { TopicPageView } from "@/components/topic-page-view";
++import { getTopic, topics } from "@/data/topic-catalog";
+ 
+-export function generateStaticParams() { return topics.map(({ slug }) => ({ slug })); }
++type TopicPageProps = {
++  params: Promise<{ slug: string }>;
++};
+ 
+-export default function TopicPage({ params }: { params: { slug: string } }) {
+-  const topic = getTopic(params.slug);
++export const dynamicParams = false;
++
++export function generateStaticParams() {
++  return topics.map(({ slug }) => ({ slug }));
++}
++
++export async function generateMetadata({ params }: TopicPageProps): Promise<Metadata> {
++  const { slug } = await params;
++  const topic = getTopic(slug);
++  if (!topic) notFound();
++
++  return {
++    title: `${topic.title} ayetleri ve kaynakları`,
++    description: `${topic.description} Doğrudan ve ilişkili ayetleri güvenilir tefsir kaynaklarında inceleyin.`,
++    keywords: [topic.title, ...topic.synonyms, "Kur’an", "ayet", "tefsir"],
++    alternates: { canonical: `/konu/${topic.slug}` },
++    openGraph: {
++      title: `${topic.title} ayetleri ve kaynakları`,
++      description: topic.description,
++      url: `/konu/${topic.slug}`,
++      type: "article",
++      locale: "tr_TR",
++    },
++  };
++}
++
++export default async function TopicPage({ params }: TopicPageProps) {
++  const { slug } = await params;
++  const topic = getTopic(slug);
+   if (!topic) notFound();
+ 
+-  return (
+-    <main>
+-      <Header />
+-      <section className="topicHero">
+-        <Link href="/" className="backLink">← Ana sayfa</Link>
+-        <div className="topicTitleRow">
+-          <div><p className="topicKicker">KUR'AN'DA <span>·</span> {topic.eyebrow.toLocaleUpperCase("tr-TR")}</p><h1>{topic.title}</h1></div>
+-          <span className={`largeGlyph ${topic.color}`}>{topic.glyph}</span>
+-        </div>
+-        <p className="topicDescription">{topic.description}</p>
+-        <SearchForm compact />
+-      </section>
+-      <section className="results">
+-        <div className="resultsIntro"><p>SEÇİLİ AYETLER</p><span>{topic.verses.length} kaynak kartı</span></div>
+-        <div className="verseList">
+-          {topic.verses.map((verse, index) => (
+-            <article className="verseCard" key={verse.reference}>
+-              <div className="verseNumber">{String(index + 1).padStart(2, "0")}</div>
+-              <div className="verseContent">
+-                <p className="verseReference">{verse.reference}</p>
+-                <blockquote lang="ar" dir="rtl">{verse.arabic}</blockquote>
+-                <p className="translation">“{verse.translation}”</p>
+-                <div className="note"><span>KISA AÇIKLAMA</span><p>{verse.note}</p></div>
+-                <div className="sources"><p>DIŞ KAYNAKLAR</p><div>{verse.sources.map((source) => <a href={source.url} target="_blank" rel="noreferrer" key={source.name}><span><b>{source.name}</b><small>{source.label}</small></span><i>↗</i></a>)}</div></div>
+-              </div>
+-            </article>
+-          ))}
+-        </div>
+-      </section>
+-      <div className="moreTopics"><p>Başka bir konu keşfedin</p><div>{topics.filter(t => t.slug !== topic.slug).map(t => <Link key={t.slug} href={`/konu/${t.slug}`}>{t.title} <span>→</span></Link>)}</div></div>
+-      <Footer />
+-    </main>
+-  );
++  return <TopicPageView topic={topic} />;
+ }

@@ -1,0 +1,114 @@
+diff --git a/components/search-form.tsx b/components/search-form.tsx
+index a3ef259..c02cc8b 100644
+--- a/components/search-form.tsx
++++ b/components/search-form.tsx
+@@ -2,8 +2,9 @@
+ 
+ import { FormEvent, useState } from "react";
+ import { useRouter } from "next/navigation";
+-import { findTopic } from "@/data/topics";
++import Link from "next/link";
++import { findTopic, searchTopics } from "@/lib/topic-search";
+ 
+ export function SearchForm({ compact = false }: { compact?: boolean }) {
+   const [query, setQuery] = useState("");
+@@ -11,13 +12,14 @@ export function SearchForm({ compact = false }: { compact?: boolean }) {
+   const [message, setMessage] = useState("");
+   const router = useRouter();
++  const suggestions = query.trim().length >= 2 ? searchTopics(query, 4) : [];
+ 
+   function submit(event: FormEvent<HTMLFormElement>) {
+     event.preventDefault();
+     const topic = findTopic(query);
+     if (topic) router.push(`/konu/${topic.slug}`);
+-    else setMessage("Bu konu henüz arşivimizde yok. Sabır, tevekkül veya anne-babaya iyilik deneyin.");
++    else setMessage("Bu ifade için henüz bir konu eşleşmesi bulamadık. Daha kısa bir ifade deneyebilirsiniz.");
+   }
+ 
+   return (
+@@ -30,10 +32,22 @@ export function SearchForm({ compact = false }: { compact?: boolean }) {
+         id={compact ? "topic-search-small" : "topic-search"}
+         value={query}
+         onChange={(e) => { setQuery(e.target.value); setMessage(""); }}
+-        placeholder="Örn. sabır, tevekkül, aile..."
++        placeholder="Örn. pişman oldum, ölüm korkusu..."
++        autoComplete="off"
++        aria-describedby={message ? (compact ? "search-message-small" : "search-message") : undefined}
+       />
+       <button type="submit">Kaynakları bul <span aria-hidden="true">→</span></button>
+-      {message && <p className="searchMessage" role="status">{message}</p>}
++      {suggestions.length > 0 && (
++        <div className="searchSuggestions" aria-label="Konu önerileri">
++          {suggestions.map(({ topic }) => (
++            <Link href={`/konu/${topic.slug}`} key={topic.slug}>
++              <span>{topic.title}</span><small>{topic.eyebrow}</small><b aria-hidden="true">→</b>
++            </Link>
++          ))}
++        </div>
++      )}
++      {message && <p id={compact ? "search-message-small" : "search-message"} className="searchMessage" role="status">{message}</p>}
+     </form>
+   );
+ }
+diff --git a/components/header.tsx b/components/header.tsx
+index bfe73bf..b2ac0a3 100644
+--- a/components/header.tsx
++++ b/components/header.tsx
+@@ -13,7 +13,10 @@ export function Header() {
+         </span>
+       </Link>
+       <div className="productName"><span /> KUR’AN KAYNAK MOTORU</div>
+-      <Link href="/#konular" className="headerLink">Konular</Link>
++      <nav className="headerNav" aria-label="Ana menü">
++        <Link href="/#konular" className="headerLink">Konular</Link>
++        <Link href="/kaynaklar" className="headerLink">Kaynaklarımız</Link>
++      </nav>
+     </header>
+   );
+ }
+diff --git a/components/footer.tsx b/components/footer.tsx
+index bf25933..1297cf9 100644
+--- a/components/footer.tsx
++++ b/components/footer.tsx
+@@ -1,7 +1,9 @@
++import Link from "next/link";
++
+ export function Footer() {
+   return (
+     <footer className="footer">
+       <div><b>GÜL STUDIOS</b><span>Bilgiyi zarafetle buluşturur.</span></div>
+-      <p>Kaynaklara ulaşmayı kolaylaştıran bağımsız bir çalışma.</p>
++      <p>Kaynaklara ulaşmayı kolaylaştıran bağımsız bir çalışma. <Link href="/kaynaklar">Kaynak filtremiz →</Link></p>
+     </footer>
+   );
+ }
+diff --git a/app/page.tsx b/app/page.tsx
+index 874082f..868386e 100644
+--- a/app/page.tsx
++++ b/app/page.tsx
+@@ -2,7 +2,7 @@ import Link from "next/link";
+ import { Footer } from "@/components/footer";
+ import { Header } from "@/components/header";
+ import { SearchForm } from "@/components/search-form";
+-import { topics } from "@/data/topics";
++import { topics } from "@/data/topic-catalog";
+ 
+ export default function HomePage() {
+   return (
+@@ -15,7 +15,7 @@ export default function HomePage() {
+         <p className="heroText">Kur'an'da merak ettiğiniz bir konuyu yazın; ilgili ayetleri ve güvenilir tefsir kaynaklarını bir arada keşfedin.</p>
+         <SearchForm />
+-        <p className="searchHint">Şimdilik üç örnek konuda arama yapabilirsiniz.</p>
++        <p className="searchHint">Konu adı yerine “pişman oldum” veya “Allah’a güvenmek” gibi bir ifade de yazabilirsiniz.</p>
+       </section>
+ 
+       <section className="topicsSection" id="konular">
+@@ -29,7 +29,7 @@ export default function HomePage() {
+         <div className="topicGrid">
+           {topics.map((topic, index) => (
+             <Link href={`/konu/${topic.slug}`} className={`topicCard ${topic.color}`} key={topic.slug}>
+-              <span className="cardNo">0{index + 1}</span>
++              <span className="cardNo">{String(index + 1).padStart(2, "0")}</span>
+               <span className="cardGlyph">{topic.glyph}</span>
+               <p>{topic.eyebrow}</p>
+               <h3>{topic.title}</h3>

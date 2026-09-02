@@ -1,0 +1,2363 @@
+{
+  "schemaVersion": "1.0",
+  "auditedAt": "2026-09-01",
+  "sourceOfTruth": "Typed HadithReference katalogu source of truth'tur; bu audit türetilmiş kalite kontrol kaydıdır.",
+  "baseline": {
+    "version": "1.0",
+    "status": "reference_verified",
+    "primaryFingerprintBefore": "71173c600ee4fad98efba5fd84f799d9118984a7a611274cd20a91537c84435c",
+    "primaryFingerprintAfter": "71173c600ee4fad98efba5fd84f799d9118984a7a611274cd20a91537c84435c",
+    "quranFingerprintBefore": "04d62dd229173c9aebceef09c0c72c3a12f31cb522bb86fb9a7d88604f4a382e",
+    "quranFingerprintAfter": "04d62dd229173c9aebceef09c0c72c3a12f31cb522bb86fb9a7d88604f4a382e"
+  },
+  "summary": {
+    "totalHadith": 50,
+    "canonicalTopics": 50,
+    "topicCoverage": "50/50",
+    "onePrimaryPerTopic": true,
+    "direct": 50,
+    "referenceVerified": 50,
+    "fullyVerified": 0,
+    "arabicPopulated": 50,
+    "fullMatn": 48,
+    "excerpt": 2,
+    "translation": {
+      "aiDraft": 10,
+      "missing": 40,
+      "humanReviewed": 0,
+      "verified": 0
+    },
+    "publicReady": 0,
+    "grading": {
+      "sahih": 47,
+      "hasen": 2,
+      "hasan_sahih": 1
+    },
+    "collections": {
+      "Sahih al-Bukhari": 34,
+      "Sahih Muslim": 13,
+      "Sunan Abi Dawud": 1,
+      "Jami at-Tirmidhi": 2
+    },
+    "decisions": {
+      "PASS": 24,
+      "PASS WITH NOTE": 26,
+      "REVIEW": 0
+    }
+  },
+  "integrityChecks": {
+    "duplicatePrimaryTopics": 0,
+    "duplicateExactPrimaryHadith": 0,
+    "orphanHadith": 0,
+    "unknownTopicId": 0,
+    "sourceProviderSeparationErrors": 0,
+    "arabicMatnBoundaryErrors": 0
+  },
+  "specialChecks": {
+    "topic42": {
+      "result": "PASS WITH NOTE",
+      "primary": "Sahih Muslim 2558a",
+      "musnadAhmad17452InPrimaryReferences": false,
+      "musnadAhmadCollectionMetadataPresent": true
+    },
+    "sunanAbiDawud495": "PASS WITH NOTE — hasen; Nevevî / Hulâsatü'l-Ahkâm 1/252; exact kapsam: isnadı hasendir.",
+    "tirmidhi2380": "PASS — hasan_sahih; Tirmizî / Jami at-Tirmidhi 2380; grading cümlesi Prophetic matndan ayrı.",
+    "tirmidhi2406": "PASS WITH NOTE — hasen; Tirmizî / Jami at-Tirmidhi 2406; çağdaş zayıf değerlendirme ihtilafı gradingNote içinde."
+  },
+  "reviewRecords": [],
+  "conclusion": {
+    "auditClean": true,
+    "statement": "Primary Hadith V1 reference baseline is audit-clean.",
+    "canonicalDataChanged": false,
+    "translationChanged": false,
+    "uiChanged": false
+  },
+  "records": [
+    {
+      "topicNumber": 1,
+      "topicTitle": "Sabır",
+      "hadithId": "sabir-bukhari-1469",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 1469",
+      "narrator": "Ebû Saîd el-Hudrî",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1469"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 24, Hadith 71"
+        }
+      ],
+      "arabicTextType": "excerpt",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 1469",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:1469",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/7HOKeIU6?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Hadis sabretmeye çalışan kimseye Allah’ın sabır vereceğini ve sabırdan daha hayırlı/geniş bir bağış bulunmadığını açıkça bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Doğrulanmış excerpt; hadisin tamamı gibi sunulmamalı ve excerpt notu görünür kalmalıdır."
+      ]
+    },
+    {
+      "topicNumber": 2,
+      "topicTitle": "Tevekkül",
+      "hadithId": "tevekkul-bukhari-6472",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6472",
+      "narrator": "İbn Abbâs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6472"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 81, Hadith 61"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6472",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6472",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/ffXwurIx",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Hadis hesapsız cennete girecek bir topluluğu anlatırken onların Rablerine tevekkül ettiklerini açıkça bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 3,
+      "topicTitle": "Anne-babaya iyilik",
+      "hadithId": "anne-babaya-iyilik-bukhari-5971",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 5971",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5971"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 2"
+        },
+        {
+          "scheme": "diyanet_hadislerle_islam",
+          "value": "B5971",
+          "providerId": "diyanet-hadislerle-islam",
+          "note": "Buhârî, Edeb, 2"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 5971",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:5971",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/151125",
+          "role": "cross_check"
+        },
+        {
+          "id": "diyanet-hadislerle-islam",
+          "name": "Diyanet Hadislerle İslâm",
+          "url": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=4&SAYFA=179",
+          "role": "locator_cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Güzel davranışı en çok hak eden kişi sorusuna üç defa anne, ardından baba cevabı verilir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 4,
+      "topicTitle": "Dua",
+      "hadithId": "dua-bukhari-6340",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6340",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6340"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 80, Hadith 37"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6340",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6340",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/IORgxcKI?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Kulun “dua ettim fakat kabul edilmedi” diyerek acele etmediği sürece duasının karşılık bulacağını bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 5,
+      "topicTitle": "Şükür",
+      "hadithId": "sukur-muslim-2734a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2734a",
+      "narrator": "Enes b. Mâlik",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2734a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 48, Hadith 123"
+        },
+        {
+          "scheme": "diyanet_hadislerle_islam",
+          "value": "M6932",
+          "providerId": "diyanet-hadislerle-islam",
+          "note": "Müslim, Zikir, 89"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2734a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2734a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/dTzJEWh5?osoul=1",
+          "role": "cross_check"
+        },
+        {
+          "id": "diyanet-hadislerle-islam",
+          "name": "Diyanet Hadislerle İslâm",
+          "url": "https://hadislerleislam.diyanet.gov.tr/",
+          "role": "locator_cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Kulun yiyip içtikten sonra Allah’a hamdetmesinin Allah’ın hoşnutluğuna vesile olduğunu açıkça bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 6,
+      "topicTitle": "Ölüm ve hayatın geçiciliği",
+      "hadithId": "olum-ve-hayatin-geciciligi-bukhari-6416",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6416",
+      "narrator": "Abdullah b. Ömer",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6416"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 81, Hadith 5"
+        }
+      ],
+      "arabicTextType": "excerpt",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6416",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6416",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/TTEZihxJ",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Dünyada bir garip veya yolcu gibi bulunma öğüdünü taşır. Dünya hayatının geçiciliği ve ölüme hazırlık açısından açık ilişkidir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Yalnız Hz. Peygamber'e ait konu ilişkili bölüm excerpt'tır; İbn Ömer'in sonraki öğüdü matna katılmamıştır."
+      ]
+    },
+    {
+      "topicNumber": 7,
+      "topicTitle": "Kul hakkı",
+      "hadithId": "kul-hakki-bukhari-2449",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 2449",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2449"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 46, Hadith 10"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 2449",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:2449",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/16324",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Bir kimsenin başka birinin şeref/onur veya başka bir hakkı konusunda haksızlığı varsa ahiretten önce helalleşmesini açıkça bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 8,
+      "topicTitle": "Tövbe ve pişmanlık",
+      "hadithId": "tovbe-ve-pismanlik-bukhari-6309",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6309",
+      "narrator": "Enes b. Mâlik",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6309"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 80, Hadith 6"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6309",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6309",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/rYW8INos?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Allah’ın kulunun tövbesine, çölde kaybettiği bineğini yeniden bulan kişinin sevincinden daha fazla hoşnut olduğunu bildiren rivayettir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 9,
+      "topicTitle": "Kardeşlik",
+      "hadithId": "kardeslik-bukhari-13",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 13",
+      "narrator": "Enes b. Mâlik",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "13"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 2, Hadith 6"
+        },
+        {
+          "scheme": "diyanet_hadislerle_islam",
+          "value": "B13",
+          "providerId": "diyanet-hadislerle-islam",
+          "note": "Buhârî, Îmân, 7"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 13",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:13",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/7317",
+          "role": "cross_check"
+        },
+        {
+          "id": "diyanet-hadislerle-islam",
+          "name": "Diyanet Hadislerle İslâm",
+          "url": "https://hadislerleislam.diyanet.gov.tr/sayfa.php?CILT=3&SAYFA=351",
+          "role": "locator_cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Kişinin kendisi için sevdiğini kardeşi için de sevmesini imanın gereği olarak açıkça bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 10,
+      "topicTitle": "Namazın önemi ve manevî etkisi",
+      "hadithId": "namazin-onemi-ve-manevi-etkisi-bukhari-528",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 528",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "528"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 9, Hadith 7"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 528",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:528",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/112408",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Beş vakit namazı, kişinin kapısındaki nehirde günde beş defa yıkanmasına benzeterek günahların silinmesine vesile olduğunu açıkça bildirir.",
+      "translationStatus": "ai_draft",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Beş vakit namazın arındırıcı etkisi açıktır; başlıktaki manevî etki daha geniş sonuçlara taşınmamalıdır."
+      ]
+    },
+    {
+      "topicNumber": 11,
+      "topicTitle": "Ahiret ve hesap bilinci",
+      "hadithId": "ahiret-hesap-bukhari-6536",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6536",
+      "narrator": "Âişe",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6536"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 81, Hadith 125"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6536",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6536",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/7310",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Hesabın ayrıntılı biçimde sorgulanmasının ağır sonucunu ve kolay hesabın arz/sunum mahiyetini açıkça işler; canonical başlığın hesap bilinci yönünü doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Hadis hesabın arzı ile ayrıntılı sorgulama ayrımını taşır; geniş ahiret başlığının bütün alt konularını tek başına temsil etmez."
+      ]
+    },
+    {
+      "topicNumber": 12,
+      "topicTitle": "Güzel ahlak",
+      "hadithId": "guzel-ahlak-bukhari-3559",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 3559",
+      "narrator": "Abdullah b. Amr b. Âs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "3559"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 61, Hadith 68"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 3559",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:3559",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/15952",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İnsanların en hayırlılarının ahlâkı en güzel olanlar olduğunu açıkça bildirir ve topic için güçlü ana hadis adayıdır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 13,
+      "topicTitle": "Doğruluk ve dürüstlük",
+      "hadithId": "dogruluk-bukhari-6094",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6094",
+      "narrator": "Abdullah b. Mes’ûd",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6094"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 121"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6094",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6094",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/151182",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Doğruluğun iyiliğe, iyiliğin cennete; yalanın ise fücura ve ateşe götürdüğünü açıkça bildirir.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 14,
+      "topicTitle": "Gıybet ve dili korumak",
+      "hadithId": "giybet-muslim-2589",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2589",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2589"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 45, Hadith 91"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2589",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2589",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/127584",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Gıybeti kişinin kardeşini hoşlanmayacağı bir şeyle anması olarak doğrudan tarif eder ve söylenen şey onda yoksa bunun iftira olduğunu ayırır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 15,
+      "topicTitle": "Öfkeye hâkim olmak",
+      "hadithId": "ofke-bukhari-6114",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6114",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6114"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 141"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6114",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6114",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/151201",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Gerçek güçlü kişinin başkalarını fiziksel olarak yenen değil, öfke anında kendisine hâkim olan kişi olduğunu açıkça bildirir.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 16,
+      "topicTitle": "Affetmek ve bağışlamak",
+      "hadithId": "affetmek-muslim-2588",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2588",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2588"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 45, Hadith 90"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2588",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2588",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/5ny4Eh57",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Bir kulun affetmesi sebebiyle Allah’ın onun izzetini artıracağını açıkça bildirir; bu topicte affetme bölümü ana ilişkidir.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 17,
+      "topicTitle": "Merhamet",
+      "hadithId": "merhamet-bukhari-7376",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 7376",
+      "narrator": "Cerîr b. Abdullah",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "7376"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 97, Hadith 6"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 7376",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:7376",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/bIOgfj61",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İnsanlara merhamet etmeyen kimseye Allah’ın merhamet etmeyeceğini açıkça bildirir ve canonical merhamet başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 18,
+      "topicTitle": "Kibir ve büyüklenme",
+      "hadithId": "kibir-muslim-91a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 91a",
+      "narrator": "Abdullah b. Mes’ûd",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "91a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 1, Hadith 171"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 91a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:91a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/26243",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Kalbinde zerre miktarı kibir bulunan kimse hakkında ağır uyarı taşır ve kibri hakkı reddetmek ile insanları küçümsemek olarak tarif eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 19,
+      "topicTitle": "Haset ve kıskançlık",
+      "hadithId": "haset-bukhari-6065",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6065",
+      "narrator": "Enes b. Mâlik",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6065"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 95"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6065",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6065",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/13228",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Birbirine haset etmemeyi açıkça emreder; diğer unsurlarının yanında canonical haset topic’iyle direct ilişkisi açıktır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 20,
+      "topicTitle": "Emanet ve sorumluluk",
+      "hadithId": "emanet-sorumluluk-bukhari-7138",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 7138",
+      "narrator": "Abdullah b. Ömer",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "7138"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 93, Hadith 2"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 7138",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:7138",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/FONlNFyr?sims=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Her insanın bir sorumluluk alanına sahip olduğunu ve bundan sorumlu tutulacağını yönetici, aile ve mal sorumluluğu örnekleriyle açıkça bildirir; bu ilk aday başlığın özellikle sorumluluk boyutunu temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Rivayet başlığın sorumluluk boyutunu taşır; emanet kavramının bütün anlamlarını tek başına temsil etmez."
+      ]
+    },
+    {
+      "topicNumber": 21,
+      "topicTitle": "Yardımlaşma ve cömertlik",
+      "hadithId": "yardimlasma-muslim-2699a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2699a",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2699a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 48, Hadith 48"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2699a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2699a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/vjqUF01B?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Müminin sıkıntısını gidermeyi, darda kalana kolaylık göstermeyi ve kardeşine yardım eden kula Allah’ın yardımını açıkça bildirir; bu ilk aday başlığın özellikle yardımlaşma boyutunu temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Rivayet yardımlaşma boyutunu taşır; cömertlik/infak ayrı destek gerektirebilir ve tam matn başka temalar da içerir."
+      ]
+    },
+    {
+      "topicNumber": 22,
+      "topicTitle": "Ailede sevgi, huzur ve merhamet",
+      "hadithId": "aile-huzuru-muslim-1468b",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 1468b",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1468b"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 17, Hadith 81"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 1468b",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:1468b",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/6tM9JzDS?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Mümin erkeğin mümin eşine bütünüyle nefret beslememesini, bir huyundan hoşlanmasa başka bir huyundan hoşnut olabileceğini bildirerek eşler arası denge ve aile huzurunu doğrudan destekler.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Hadis eşler arası denge ve olumlu tarafı görebilme boyutundadır; aile başlığının bütün boyutlarını temsil etmez."
+      ]
+    },
+    {
+      "topicNumber": 23,
+      "topicTitle": "Çocuk terbiyesi ve ebeveyn sorumluluğu",
+      "hadithId": "cocuk-terbiyesi-abu-dawud-495",
+      "collection": "Sunan Abi Dawud",
+      "sourceReference": "Sunan Abi Dawud 495",
+      "narrator": "Abdullah b. Amr b. Âs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "495"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 2, Hadith 105"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "hasen",
+      "gradingSource": "Nevevî / Hulâsatü'l-Ahkâm 1/252",
+      "gradingNote": "Nevevî’nin lafzı hadis metnine değil isnada ilişkindir: ‘İsnadı hasendir’ (إسناده حسن).",
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/abudawud:495",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/71032",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Çocuklara küçük yaştan itibaren namazın öğretilmesi ve yataklarının ayrılması üzerinden ebeveynin dinî eğitim sorumluluğunu doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Ebeveynin dinî eğitim sorumluluğu direct'tir; Nevevî grading'i yalnız 'isnadı hasendir' kapsamındadır ve genişletilmemelidir."
+      ]
+    },
+    {
+      "topicNumber": 24,
+      "topicTitle": "Sıla-i rahim ve akrabalık bağları",
+      "hadithId": "sila-i-rahim-bukhari-5991",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 5991",
+      "narrator": "Abdullah b. Amr",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5991"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 22"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 5991",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:5991",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/UsKe7w2o?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Gerçek sıla-i rahmin yalnız iyiliğe karşılık vermek olmadığını, akrabalık bağı kesildiğinde dahi ilişkiyi sürdürmeyi açıkça bildirir.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 25,
+      "topicTitle": "Komşuluk",
+      "hadithId": "komsuluk-bukhari-6016",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6016",
+      "narrator": "Ebû Şüreyh",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6016"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 47"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6016",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6016",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/7PpsXKcJ",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Komşusunun kötülüğünden emin olmadığı kimse hakkında ağır bir uyarı taşıyarak komşunun güvenliği ve komşuya zarar vermeme ilkesini doğrudan temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 26,
+      "topicTitle": "Haber ve iletişim ahlakı",
+      "hadithId": "haber-iletisim-bukhari-6475",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6475",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6475"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 81, Hadith 64"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6475",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6475",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/4363",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Allah’a ve ahiret gününe iman eden kişinin hayır söylemesini veya susmasını açıkça emreder; canonical topic açısından ana ilişki söz ve iletişim ahlâkıdır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Genel söz ahlâkını taşır; modern internet/sosyal medya metni değildir ve tam matn başka temalar da içerir."
+      ]
+    },
+    {
+      "topicNumber": 27,
+      "topicTitle": "Gençlik ve doğru duruş",
+      "hadithId": "genclik-bukhari-660",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 660",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "660"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 10, Hadith 54"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 660",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:660",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/6991",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Allah’ın gölgesinde gölgelenecek yedi sınıftan biri olarak Allah’a ibadet içinde yetişen genci açıkça zikreder ve gençlik ile sağlam dinî duruş çekirdeğini doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Gençlik ilişkisi yedi sınıftan Allah'a ibadet içinde yetişen genç unsuruna dayanır; tam matnın diğer unsurları korunur."
+      ]
+    },
+    {
+      "topicNumber": 28,
+      "topicTitle": "Ümit ve ümitsizliğe kapılmamak",
+      "hadithId": "umit-muslim-2877a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2877a",
+      "narrator": "Câbir b. Abdullah",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2877a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 53, Hadith 98"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2877a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2877a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/152064",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Kişinin Allah hakkında hüsnüzan üzere ölmesini açıkça emrederek Allah’tan iyilik umma ve ümit başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Özellikle ölüm anında Allah hakkında hüsnüzan bağlamındadır; sınırsız iyimserlik şeklinde genişletilmemelidir."
+      ]
+    },
+    {
+      "topicNumber": 29,
+      "topicTitle": "İsraf ve ölçülü yaşamak",
+      "hadithId": "israf-tirmidhi-2380",
+      "collection": "Jami at-Tirmidhi",
+      "sourceReference": "Jami at-Tirmidhi 2380",
+      "narrator": "Mikdâm b. Ma‘dîkerib",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2380"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 36, Hadith 77"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "hasan_sahih",
+      "gradingSource": "Tirmizî / Jami at-Tirmidhi 2380",
+      "gradingNote": "Tirmizî’nin hadis hakkındaki kendi lafzı: ‘Bu hadis hasen sahihtir’ (هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ).",
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/tirmidhi:2380",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/36016",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Midenin gereğinden fazla doldurulmamasını, yeterli miktarla yetinmeyi ve gerektiğinde yemek, içecek ve nefes için ölçü gözetmeyi bildirerek ölçülü tüketim boyutunu doğrudan temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Ölçülü yaşamanın yeme/içme boyutunu taşır; Tirmizî'nin hasen sahih hükmü Prophetic matndan ayrıdır."
+      ]
+    },
+    {
+      "topicNumber": 30,
+      "topicTitle": "Adalet",
+      "hadithId": "adalet-muslim-1827",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 1827",
+      "narrator": "Abdullah b. Amr",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1827"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 33, Hadith 21"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 1827",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:1827",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/uAnC2Wo9",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Adaletli davrananları över ve onların hükümlerinde, ailelerine karşı ve sorumluluk alanlarında adaletli olduklarını açıkça bildirir.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 31,
+      "topicTitle": "Kur’an’la yaşamak ve öğüt almak",
+      "hadithId": "kuranla-yasamak-bukhari-5027",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 5027",
+      "narrator": "Osman b. Affân",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5027"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 66, Hadith 49"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 5027",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:5027",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/5vS5H0V8?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Kur’an’ı öğrenen ve öğretenlerin en hayırlı kimseler olduğunu bildirerek Kur’an’la güçlü bağ kurma, öğrenme ve başkasına aktarma boyutunu doğrudan temsil eder; başlığın bütün boyutları bu tek rivayete yüklenmez.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Kur'an'ı öğrenme ve öğretme boyutunu taşır; başlığın bütün Kur'an'la yaşamak sonuçları bu tek lafza yüklenmemelidir."
+      ]
+    },
+    {
+      "topicNumber": 32,
+      "topicTitle": "İlim öğrenmek ve bilginin değeri",
+      "hadithId": "ilim-bukhari-71",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 71",
+      "narrator": "Muâviye b. Ebû Süfyân",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "71"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 3, Hadith 13"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 71",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:71",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/niFWqQWq",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Allah’ın hakkında hayır dilediği kişiye dinde derin anlayış verdiğini bildirerek ilim ve dinî anlayışın değerini doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Özellikle dinde anlayış/tefakkuh eksenindedir; bütün bilim dallarının doğrudan delili gibi genişletilmemelidir."
+      ]
+    },
+    {
+      "topicNumber": 33,
+      "topicTitle": "Vakit ve ömrü değerlendirmek",
+      "hadithId": "vakit-bukhari-6412",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6412",
+      "narrator": "Abdullah b. Abbâs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6412"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 81, Hadith 1"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6412",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6412",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith-category/cat/182391d682c597cc17a36135efcc8347?all=&new=&page=2",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İnsanların çoğunun değerini yeterince bilmediği sağlık ve boş vakit nimetlerini açıkça bildirerek canonical başlığın vakti değerlendirme boyutunu doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Hadis sağlık ve boş vakit nimetlerini taşır; ömür kullanıcı dostu daha geniş çerçevedir."
+      ]
+    },
+    {
+      "topicNumber": 34,
+      "topicTitle": "Gayret ve emeğin değeri",
+      "hadithId": "gayret-muslim-2664",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2664",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2664"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 46, Hadith 52"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2664",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2664",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/ptrTn9PP",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Güçlü müminin faziletini, kişiye fayda verene gayret göstermeyi, Allah’tan yardım istemeyi ve acizliğe teslim olmamayı bildirerek gayret ve çaba boyutunu doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Faydalı olana gayret, Allah'tan yardım ve acizliğe teslim olmama eksenindedir; modern çalışma ekonomisi hadisi değildir."
+      ]
+    },
+    {
+      "topicNumber": 35,
+      "topicTitle": "Vefa ve sözünde durmak",
+      "hadithId": "vefa-bukhari-34",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 34",
+      "narrator": "Abdullah b. Amr b. Âs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "34"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 2, Hadith 27"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 34",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:34",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/8wetNc3N?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Nifak alametleri arasında ahit yaptığında ahdine ihanet etmeyi açıkça zikrederek ahde vefa ve sözünde durma başlığını doğrudan destekler.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 36,
+      "topicTitle": "Mahremiyet ve özel hayata saygı",
+      "hadithId": "mahremiyet-bukhari-6241",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6241",
+      "narrator": "Sehl b. Sa‘d",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6241"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 79, Hadith 15"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6241",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6241",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/dMhkKBHg?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İzinsiz biçimde evin içine bakılması olayı üzerinden izin istemenin bakış sebebiyle konulduğunu bildirerek özel alana ve ev mahremiyetine saygıyı doğrudan destekler.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Ev ve bakış mahremiyetini taşır; dijital gizlilik veya veri koruma mevzuatının ayrıntılı kaynağı değildir."
+      ]
+    },
+    {
+      "topicNumber": 37,
+      "topicTitle": "Suizan ve zanlardan sakınmak",
+      "hadithId": "suizan-bukhari-6064",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6064",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6064"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 94"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6064",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6064",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/a65iKv93?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Zandan sakınmayı açıkça emreder ve zannın sözün en yalanı olduğunu bildirir; canonical suizan başlığıyla doğrudan ilişkilidir.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 38,
+      "topicTitle": "İftira ve asılsız söz",
+      "hadithId": "iftira-bukhari-2654",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 2654",
+      "narrator": "Ebû Bekre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2654"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 52, Hadith 18"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 2654",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:2654",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/2991",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Büyük günahlar arasında yalan ve asılsız söz konusunda güçlü, tekrarlı bir uyarı taşıyarak canonical topic’in asılsız söz boyutunu doğrudan temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Yalan/asılsız söz ve yalancı şahitlik boyutunu taşır; iftiranın bütün teknik biçimlerinin tanımı değildir."
+      ]
+    },
+    {
+      "topicNumber": 39,
+      "topicTitle": "Alay, küçümseme ve kötü lakap",
+      "hadithId": "alay-kucumseme-muslim-2564a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2564a",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2564a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 45, Hadith 40"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2564a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2564a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/VMwfh7m3?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Müslüman kardeşini küçümsememeyi ve bir kimsenin kardeşini küçümsemesinin ona kötülük olarak yeteceğini bildirerek canonical topic’in küçümseme boyutunu doğrudan temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Küçümseme direct'tir; açık alay ve kötü lakap lafızları bu hadiste yoktur, tam matn başka temalar da içerir."
+      ]
+    },
+    {
+      "topicNumber": 40,
+      "topicTitle": "Dostluk ve arkadaş seçimi",
+      "hadithId": "dostluk-bukhari-5534",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 5534",
+      "narrator": "Ebû Mûsâ el-Eş‘arî",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "5534"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 72, Hadith 59"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 5534",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:5534",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/k5Apq046?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İyi ve kötü arkadaşın etkisini misk taşıyan ve körük üfleyen kişi benzetmeleriyle anlatarak arkadaş seçiminin fayda ve zarar boyutunu doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 41,
+      "topicTitle": "İnsanların arasını düzeltmek",
+      "hadithId": "insanlarin-arasini-duzeltmek-bukhari-2692",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 2692",
+      "narrator": "Ümmü Külsûm bint Ukbe",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2692"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 53, Hadith 3"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 2692",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:2692",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/BhU2Hklq?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İnsanların arasını düzelten ve bu amaçla hayırlı söz aktaran kimseyi açıkça işleyerek canonical topic ile doğrudan ilişki kurar.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Arayı düzeltme ilişkisi açıktır; sulh amacıyla sınırsız yalan serbesttir şeklinde genişletilmemelidir."
+      ]
+    },
+    {
+      "topicNumber": 42,
+      "topicTitle": "Kötülüğe iyilikle karşılık vermek",
+      "hadithId": "kotuluge-iyilikle-karsilik-vermek-muslim-2558a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2558a",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2558a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 45, Hadith 25"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2558a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2558a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/78395",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Akrabaları bağı kestiği hâlde bağı sürdürme, onlar kötülük ettiği hâlde iyilik etme ve kaba davrandıkları hâlde hilm gösterme tutumunu işleyerek kötülüğe iyilikle karşılık verme başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Kötülüğe iyilikle karşılık ilişkisi akrabaların bağı kesmesi ve kötü davranmasına rağmen ilişkiyi sürdürme bağlamındadır."
+      ]
+    },
+    {
+      "topicNumber": 43,
+      "topicTitle": "İyilik ve ihsan",
+      "hadithId": "iyilik-ve-ihsan-muslim-1955a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 1955a",
+      "narrator": "Şeddâd b. Evs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1955a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 34, Hadith 84"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 1955a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:1955a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/zJB1WCUU?sims=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Allah’ın her şeyde ihsanı emrettiğini açıkça bildirerek canonical iyilik ve ihsan başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "İlk cümle genel ihsan ilkesini taşır; uygulama bağlamı öldürme ve hayvan kesiminde ihsandır."
+      ]
+    },
+    {
+      "topicNumber": 44,
+      "topicTitle": "Yetimlere karşı sorumluluk",
+      "hadithId": "yetimlere-karsi-sorumluluk-bukhari-6005",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6005",
+      "narrator": "Sehl b. Sa‘d",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6005"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 36"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6005",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6005",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/OwbDID6D",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Yetime kefil olan ve bakımını üstlenen kişinin faziletini açıkça bildirerek yetimlere karşı sorumluluk başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 45,
+      "topicTitle": "Riya ve gösterişten sakınmak",
+      "hadithId": "riya-ve-gosteristen-sakinmak-bukhari-6499",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6499",
+      "narrator": "Cündeb",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6499"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 81, Hadith 88"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6499",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6499",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/ZsAK0GOF",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "İnsanların duyması veya görmesi için amel etme ve gösteriş tutumunu açıkça işleyerek riya başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 46,
+      "topicTitle": "İffet ve haya",
+      "hadithId": "iffet-ve-haya-bukhari-6117",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 6117",
+      "narrator": "İmrân b. Husayn",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "6117"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 78, Hadith 144"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 6117",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:6117",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/151155",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Hayânın yalnız hayır getirdiğini açıkça bildirerek canonical başlığın haya boyutunu doğrudan temsil eder.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Hadis başlığın haya boyutunu taşır; iffet boyutunu tek başına temsil etmez."
+      ]
+    },
+    {
+      "topicNumber": 47,
+      "topicTitle": "İnsan onuru ve saygınlığı",
+      "hadithId": "insan-onuru-ve-sayginligi-bukhari-1739",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 1739",
+      "narrator": "Abdullah b. Abbâs",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "1739"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 25, Hadith 217"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 1739",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:1739",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/uF0nLC00?osoul=1",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Veda hutbesi bağlamında can, mal ve ırzın dokunulmazlığını bildirerek insan onuru ve saygınlığı başlığını doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Can, mal ve onur dokunulmazlığı direct'tir; modern insan hakları hukukunun bütün maddeleri bu rivayete yüklenmemelidir."
+      ]
+    },
+    {
+      "topicNumber": 48,
+      "topicTitle": "Yumuşak söz ve güzel konuşmak",
+      "hadithId": "yumusak-soz-ve-guzel-konusmak-bukhari-2989",
+      "collection": "Sahih al-Bukhari",
+      "sourceReference": "Sahih al-Bukhari 2989",
+      "narrator": "Ebû Hüreyre",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2989"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 56, Hadith 198"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Buhârî / Sahih al-Bukhari 2989",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/bukhari:2989",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/133053",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Güzel sözün sadaka olduğunu açıkça bildirerek canonical başlığın güzel konuşmak ve güzel söz boyutunu doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Hadis güzel söz boyutunu taşır; yumuşaklık/rifk boyutunu tek başına temsil etmez ve tam matn başka temalar içerir."
+      ]
+    },
+    {
+      "topicNumber": 49,
+      "topicTitle": "Haksızlık ve zulümden sakınmak",
+      "hadithId": "haksizlik-ve-zulumden-sakinmak-muslim-2577a",
+      "collection": "Sahih Muslim",
+      "sourceReference": "Sahih Muslim 2577a",
+      "narrator": "Ebû Zer",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2577a"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 45, Hadith 70"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "sahih",
+      "gradingSource": "Müslim / Sahih Muslim 2577a",
+      "gradingNote": null,
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/muslim:2577a",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/hadith/sharh/63223",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Zulmün haram kılındığını ve kulların birbirlerine zulmetmemesini açıkça bildiren hadis-i kudsî olarak canonical başlığı doğrudan taşır.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS",
+      "auditNotes": [
+        "Kaynak, locator, râvi, matn sınırı, grading kaynağı ve topic ilişkisi tutarlı."
+      ]
+    },
+    {
+      "topicNumber": 50,
+      "topicTitle": "Nefis muhasebesi ve kendini düzeltmek",
+      "hadithId": "nefis-muhasebesi-tirmidhi-2406",
+      "collection": "Jami at-Tirmidhi",
+      "sourceReference": "Jami at-Tirmidhi 2406",
+      "narrator": "Ukbe b. Âmir",
+      "primaryLocator": {
+        "scheme": "collection_global",
+        "value": "2406"
+      },
+      "alternateLocators": [
+        {
+          "scheme": "in_book",
+          "value": "Book 36, Hadith 104"
+        }
+      ],
+      "arabicTextType": "full_matn",
+      "grading": "hasen",
+      "gradingSource": "Tirmizî / Jami at-Tirmidhi 2406",
+      "gradingNote": "Tirmizî’nin kendi lafzı ‘bu hadis hasendir’ (هَذَا حَدِيثٌ حَسَنٌ) şeklindedir. Bazı çağdaş grading sistemleri rivayeti zayıf değerlendirmiştir; canonical kayıt Tirmizî’nin kendi eserindeki açık hükmü, otoritesini belirterek aktarır ve grading ihtilafını yok saymaz.",
+      "verificationStatus": "reference_verified",
+      "provenanceProviders": [
+        {
+          "id": "sunnah-com",
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/tirmidhi:2406",
+          "role": "text_and_locator_verification"
+        },
+        {
+          "id": "dorar",
+          "name": "Dürer es-Seniyye",
+          "url": "https://dorar.net/h/ZVMx3QV3",
+          "role": "cross_check"
+        }
+      ],
+      "relationType": "direct",
+      "topicRelationRationale": "Dili tutma, evin kişiye yetmesi ve kendi hatasına ağlama öğüdüyle kişinin kendi durumunu sorgulaması ve kendini düzeltmesi başlığını doğrudan destekler.",
+      "translationStatus": "missing",
+      "publicReady": false,
+      "auditDecision": "PASS WITH NOTE",
+      "auditNotes": [
+        "Nefis muhasebesi şemsiye başlıktır; Tirmizî'nin hasen hükmü ile çağdaş zayıf değerlendirme ihtilafı birlikte görünür kalmalıdır."
+      ]
+    }
+  ]
+}

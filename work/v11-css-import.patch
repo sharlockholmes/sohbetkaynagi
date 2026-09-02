@@ -1,0 +1,11 @@
+diff --git a/app/layout.tsx b/app/layout.tsx
+--- a/app/layout.tsx
++++ b/app/layout.tsx
+@@ -1,6 +1,7 @@
+ import type { Metadata } from "next";
+ import { SITE_NAME, SITE_URL } from "@/data/site";
+ import "./globals.css";
++import "./v11.css";
+ 
+ export const metadata: Metadata = {
+   metadataBase: new URL(SITE_URL),
